@@ -1,24 +1,25 @@
 import SectionContainer from "./SectionContainer";
+const socialUser = 'cardiadev'
 const socialIcon = [
   {
     id: 1,
     iconName: "icon-facebook-squared",
-    link: "https://www.facebook.com/",
+    link: `https://www.facebook.com/${socialUser}/`,
   },
   {
     id: 2,
     iconName: "icon-twitter-squared",
-    link: "https://twitter.com/",
+    link: `https://twitter.com/${socialUser}/`,
   },
   {
     id: 3,
     iconName: "icon-behance-squared",
-    link: "https://www.behance.net/",
+    link: `https://www.behance.net/${socialUser}/`,
   },
   {
     id: 4,
     iconName: "icon-linkedin-squared",
-    link: "https://www.linkedin.com/",
+    link: `https://www.linkedin.com/in/${socialUser}/`,
   },
 ];
 const Home = () => {
@@ -35,23 +36,22 @@ const Home = () => {
               {/* data-type values are: "wave", "circle", "square"*/}
               <div
                 className="image absolute inset-0 bg-no-repeat bg-center bg-cover"
-                data-img-url="assets/img/slider/1.jpg"
+                data-img-url="assets/img/slider/me_03.jpg"
               />
             </div>
             <div className="details ml-[80px]">
               <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">
-                Adriano <span>Smith</span>
+                Carlos <span>Diaz</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I am a WordPress Developer at heart and create features that are
-                best suited for the job at hand.
+                I'm a passionate Fullstack JS Developer and UX Engineer, specializing in technologies like JavaScript, React, Angular, Node.js, and Flutter. With a background in Multimedia Communication Engineering, he creates innovative and user-friendly web and mobile applications.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
                   {socialIcon.map((item) => (
                     <li className="mr-[8px] inline-block" key={item.id}>
                       <a
-                        className="text-black text-[20px] transition-all duration-300 hover:text-black"
+                        className="text-black text-[40px] transition-all duration-300 hover:text-black"
                         href={item.link}
                         target="_blank"
                       >

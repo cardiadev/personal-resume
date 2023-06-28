@@ -705,3 +705,10 @@ body.dark .tokyo_tm_modalbox_about .description_wrap{
 @media (max-width: 1040px) {
 	.tokyo_tm_intro .demos img{max-width: 100px;}
 }
+
+.mt-\[240px\] {
+    margin-top: 240px;
+  }
+.mb-\[100px\] {
+    margin-bottom: 100px;
+  }

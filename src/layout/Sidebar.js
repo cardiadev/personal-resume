@@ -1,6 +1,30 @@
 import { useContext } from "react";
 import { TokyoContext } from "../Context";
 
+const socialUser = 'cardiadev'
+const socialIcon = [
+  {
+    id: 1,
+    iconName: "icon-facebook-squared",
+    link: `https://www.facebook.com/${socialUser}/`,
+  },
+  {
+    id: 2,
+    iconName: "icon-twitter-squared",
+    link: `https://twitter.com/${socialUser}/`,
+  },
+  {
+    id: 3,
+    iconName: "icon-behance-squared",
+    link: `https://www.behance.net/${socialUser}/`,
+  },
+  {
+    id: 4,
+    iconName: "icon-linkedin-squared",
+    link: `https://www.linkedin.com/in/${socialUser}/`,
+  },
+];
+
 const Sidebar = () => {
   const { navChange, nav, menus } = useContext(TokyoContext);
   return (
@@ -9,14 +33,14 @@ const Sidebar = () => {
         <div className="logo" data-type="image">
           {" "}
           {/* You can use image or text as logo. data-type values are: "image" and "text" */}
-          <a href="#">
+          <a href="/">
             <img
               className="max-w-[150px]"
               src="assets/img/logo/dark.png"
               alt="image"
             />
             <h3 className="font-poppins font-black text-[31px] tracking-[5px]">
-              TOKYO
+              Carlos Diaz
             </h3>
           </a>
         </div>
@@ -40,19 +64,39 @@ const Sidebar = () => {
             ))}
           </ul>
         </div>
+
+
+        <div className="social w-full float-left mt-[240px] mb-[100px]">
+                <ul className="m-0 list-none">
+                  {socialIcon.map((item) => (
+                    <li className="mr-[8px] inline-block" key={item.id}>
+                      <a
+                        className="text-black text-[25px] transition-all duration-300 hover:text-black"
+                        href={item.link}
+                        target="_blank"
+                      >
+                        <i className={item.iconName} />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+
+
         <div className="copyright w-full float-left">
           <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-            © {new Date().getFullYear()} Tokyo
-            <br />
-            Created by{" "}
+            {`© ${new Date().getFullYear()} `} 
             <a
               className="text-[#787878] font-medium transition-all duration-300 hover:text-black"
-              href="https://themeforest.net/user/Codeefly"
+              href="https://github.com/cardiadev"
               target="_blank"
             >
-              Codeefly
+              Carlos Diaz
             </a>
+            <br />
           </p>
+            <p>Made with ♥️ and Good Vibes 😉</p>
         </div>
       </div>
     </div>
