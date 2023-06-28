@@ -20,7 +20,7 @@ const Service = () => {
       </div>
       <Partners />
       <FunFact />
-      <Pricing />
+      {/* <Pricing /> */}
     </SectionContainer>
   );
 };

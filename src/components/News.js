@@ -34,7 +34,7 @@ const news = [
   },
 ];
 
-const News = () => {
+const Blog = () => {
   const { setNewsModal, modalToggle } = useContext(TokyoContext);
   return (
     <SectionContainer name={"news"}>
@@ -42,7 +42,7 @@ const News = () => {
         <div className="tokyo_tm_news w-full clear-both float-left h-auto pt-[100px] px-0 pb-[45px]">
           <div className="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
             <div className="title_flex w-full h-auto clear-both flex justify-between items-end">
-              <SectionTitle pageName={"News"} title={"Latest News"} />
+              <SectionTitle pageName={"Blog"} title={"Latest Posts"} />
             </div>
           </div>
           <ul className="ml-[-50px] list-none">
@@ -124,4 +124,4 @@ const News = () => {
     </SectionContainer>
   );
 };
-export default News;
+export default Blog;
