@@ -8,28 +8,28 @@ const news = [
     id: 1,
     title: "Format releases a new tool that enables direct video hosting",
     image: "assets/img/news/1.jpg",
-    author: "Alex Watson",
+    author: "Carlos Diaz",
     date: "22 Oct 2022",
   },
   {
     id: 2,
     title: "Sony announced two new full frame cameras with zero fanfare",
-    image: "assets/img/news/2.jpg",
-    author: "Brook Kennedy",
+    image: "assets/img/news/1.jpg",
+    author: "Carlos Diaz",
     date: "15 Oct 2022",
   },
   {
     id: 3,
     title: "Why every photographer should shoot film, even in 2022",
-    image: "assets/img/news/3.jpg",
-    author: "Paola Atkins",
+    image: "assets/img/news/1.jpg",
+    author: "Carlos Diaz",
     date: "07 Oct 2022",
   },
   {
     id: 4,
     title: "Stay creative in lockdown with these fun photo projects",
-    image: "assets/img/news/4.jpg",
-    author: "Kevin Stone",
+    image: "assets/img/news/1.jpg",
+    author: "Carlos Diaz",
     date: "25 Sep 2022",
   },
 ];
@@ -40,6 +40,8 @@ const Blog = () => {
     <SectionContainer name={"news"}>
       <div className="container">
         <div className="tokyo_tm_news w-full clear-both float-left h-auto pt-[100px] px-0 pb-[45px]">
+        {/* TODO: UNDER CONSTRUCTION */}
+        <h2  className="mb-[62px] uppercase font-extrabold font-montserrat">Under Construction</h2>
           <div className="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
             <div className="title_flex w-full h-auto clear-both flex justify-between items-end">
               <SectionTitle pageName={"Blog"} title={"Latest Posts"} />

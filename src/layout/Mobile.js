@@ -41,7 +41,7 @@ const Mobile = () => {
           toggle ? "opened" : ""
         }`}
       >
-        <div className="menu_list w-full h-auto clear-both float-left text-right px-[20px] pt-[100px] pb-[0px]">
+        <div className="menu_list w-full h-auto clear-both float-left text-center px-[20px] pt-[100px] pb-[0px]">
           <ul className="transition_link list-none">
             {menus.map((menu) => (
               <li

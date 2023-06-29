@@ -3,24 +3,24 @@ import { sliderProps } from "../../sliderProps";
 const testimonialData = [
   {
     id: 1,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
+    text: "Carlos is undoubtedly an enthusiast of cutting-edge technologies, with great skills in Frontend, UX and multimedia development. Since I met him at college, he has always kept up to date with current trends.",
     authorImage: "assets/img/testimonials/1.jpg",
-    authorName: "Alexander Walker",
-    authorDesignation: "Graphic Designer",
+    authorName: "Carlos Rodriguez",
+    authorDesignation: "User Experience Designer at Sunrise UPC GmbH",
   },
   {
     id: 2,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
+    text: "I recommend to Carlos in all professional senses as a high committed person to fullfill responsibilities with enough skills to perform and develop projects and generate creative alternatives to solve problems.",
     authorImage: "assets/img/testimonials/2.jpg",
-    authorName: "Isabelle Smith",
-    authorDesignation: "Content Manager",
+    authorName: "José Arturo Martínez Pérez",
+    authorDesignation: "Quality Engineer at HELLA",
   },
   {
     id: 3,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
+    text: "Carlos is a very long time friend, know him from his very detailed work and mostly interested in current technologies and keeping up to date to what's happening in Tech industries.",
     authorImage: "assets/img/testimonials/3.jpg",
-    authorName: "Baraka Clinton",
-    authorDesignation: "English Teacher",
+    authorName: "Alejandro Magaña",
+    authorDesignation: "Quality Assurance Specialist at Placeit",
   },
 ];
 const Testimonials = () => {

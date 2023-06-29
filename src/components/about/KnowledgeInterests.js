@@ -1,16 +1,16 @@
 const knowledge = [
-  { id: 1, text: "Bootstrap, Angular" },
-  { id: 2, text: "React, Vue, Laravel" },
-  { id: 3, text: "Stylus, Sass, Less" },
-  { id: 4, text: "Gulp, Webpack, Grunt" },
-  { id: 5, text: "Tweenmax, GSAP" },
+  { id: 1, text: "Bootstrap" },
+  { id: 2, text: "Webpack, Vite" },
+  { id: 3, text: "Flutter" },
+  { id: 4, text: "Figma & Sketch" },
+  { id: 5, text: "SCRUM" },
 ];
 const interests = [
   { id: 1, text: "Make UI/UX Design" },
   { id: 2, text: "Create Mobile App" },
-  { id: 3, text: "Site Optimization" },
+  { id: 3, text: "Site Optimization - SEO" },
   { id: 4, text: "Custom Website" },
-  { id: 5, text: "Learn Ecommerce" },
+  { id: 5, text: "Microservices" },
 ];
 
 const KnowledgeInterests = () => {

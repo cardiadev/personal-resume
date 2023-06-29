@@ -1,42 +1,43 @@
 const experiencesData = [
   {
     id: 1,
-    date: "2018 - Now",
-    designation: "Exclusive Author",
-    company: "Envato Market",
+    date: "2022 - Current",
+    designation: "Fullstack Developer | Software Specialist",
+    company: "Improving",
   },
   {
     id: 2,
-    date: "2016 - 2018",
+    date: "2021",
     designation: "UX Designer",
-    company: "RGB Studio",
+    company: "IBM de Mexico",
   },
   {
     id: 3,
-    date: "2012 - 2016",
-    designation: "Web Designer",
-    company: "Innovations Park",
+    date: "2021",
+    designation: "Helpdesk Associate",
+    company: "NTT Data Services",
   },
 ];
 const educationData = [
   {
     id: 1,
-    date: "2014 - 2016",
-    degree: "Master Degree",
-    institute: "Oxford Univercity",
+    date: "2020",
+    degree: "Fullstack JS",
+    institute: "BEDU",
   },
   {
     id: 2,
-    date: "2010 - 2014",
-    degree: "Bachelor Degree",
-    institute: "Texas Univercity",
+    date: "2019",
+    degree: "UX & Frontend",
+    institute: "BEDU",
   },
   {
     id: 3,
-    date: "2008 - 2010",
-    degree: "Associate Degree",
-    institute: "Simone College",
+    date: "2011",
+    degree: "Multimedia Communication Engineering",
+    institute: "Universidad de Guadalajara",
   },
+
 ];
 
 const EducationExperience = () => {
