@@ -1,27 +1,6 @@
 import SectionContainer from "./SectionContainer";
-const socialUser = 'cardiadev'
-const socialIcon = [
-  {
-    id: 1,
-    iconName: "icon-facebook-squared",
-    link: `https://www.facebook.com/${socialUser}/`,
-  },
-  {
-    id: 2,
-    iconName: "icon-twitter-squared",
-    link: `https://twitter.com/${socialUser}/`,
-  },
-  {
-    id: 3,
-    iconName: "icon-behance-squared",
-    link: `https://www.behance.net/${socialUser}/`,
-  },
-  {
-    id: 4,
-    iconName: "icon-linkedin-squared",
-    link: `https://www.linkedin.com/in/${socialUser}/`,
-  },
-];
+import { socialIcon } from "../socialMedia"
+
 const Home = () => {
   return (
     <SectionContainer name={"home"}>

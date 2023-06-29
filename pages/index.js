@@ -3,7 +3,7 @@ import About from "components/About";
 import Contact from "components/Contact";
 import Home from "components/Home";
 import Blog from "@/src/components/News";
-import Service from "components/Service";
+import Services from "components/Service";
 import dynamic from "next/dynamic";
 const Portfolio = dynamic(() => import("components/Portfolio"), {
   ssr: false,
@@ -18,7 +18,7 @@ const Index = () => {
       <About />
       {/* /ABOUT */}
       {/* SERVICE */}
-      <Service />
+      <Services />
       {/* /SERVICE */}
       <div className="tokyo_tm_portfolio_titles" />
       {/* PORTFOLIO */}

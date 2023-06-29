@@ -8,13 +8,13 @@ const detailData = [
   {
     id: 1,
     thumbnail: "assets/img/portfolio/7.jpg",
-    title: "Selena Gomez",
+    title: "Grand Velas | 360 VR",
     text: [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
       "Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product. Making mockups a part of your creative and development process allows you to quickly and easily ideate.",
     ],
-    client: "Alvaro Morata",
-    date: "October 22, 2022",
+    client: "Grand Velas Rivera Maya",
+    date: "December 13, 2011",
     category: "Detail",
     share: [
       {
@@ -182,12 +182,12 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Teresa Butler"
+                    data-title="Punta de Mita"
                     data-category="Vimeo"
                   >
                     <a
                       className="popup-vimeo"
-                      href="https://vimeo.com/337293658"
+                      href="https://vimeo.com/512885700"
                     >
                       <img
                         className="opacity-0 min-w-full"
@@ -202,7 +202,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-              <li className="youtube mb-[40px] float-left w-1/3 pl-[40px] item__">
+              {/* <li className="youtube mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
@@ -225,8 +225,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              </li>
-              <li className="soundcloud mb-[40px] float-left w-1/3 pl-[40px] item__">
+              </li> */}
+              {/* <li className="soundcloud mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
@@ -249,8 +249,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              </li>
-              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+              </li> */}
+              {/* <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
@@ -270,12 +270,12 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Selena Gomez"
+                    data-title={detailData[0].client}
                     data-category="Detail"
                   >
                     <a
@@ -299,7 +299,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-              <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
+              {/* <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
@@ -326,7 +326,7 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

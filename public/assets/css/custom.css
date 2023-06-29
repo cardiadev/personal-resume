@@ -709,6 +709,34 @@ body.dark .tokyo_tm_modalbox_about .description_wrap{
 .mt-\[240px\] {
     margin-top: 240px;
   }
+.mt-\[45px\] {
+    margin-top: 45px;
+  }
 .mb-\[100px\] {
     margin-bottom: 100px;
   }
+.social-icons{
+    font-size: 30px;
+}
+
+.button-preview{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    line-height: 26px;
+}
+
+.button-preview:hover {
+    background: #f7f7f7;
+}
+
+
+
+

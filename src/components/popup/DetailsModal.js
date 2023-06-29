@@ -17,6 +17,8 @@ const DetailsModal = () => {
             }}
           />
         </div>
+        {/* TODO: CONDICIONAR SI TIENE CAMPO */}
+        <button className="button-preview mb-[14px]"><a href="assets/gvrm/index.html" target="_blank" >Live Preview</a></button>
         <div className="portfolio_main_title">
           <h3>{portfolioDetailsModal.title}</h3>
           <span>{portfolioDetailsModal.category}</span>

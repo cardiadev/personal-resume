@@ -1,29 +1,6 @@
 import { useContext } from "react";
 import { TokyoContext } from "../Context";
-
-const socialUser = 'cardiadev'
-const socialIcon = [
-  {
-    id: 1,
-    iconName: "icon-facebook-squared",
-    link: `https://www.facebook.com/${socialUser}/`,
-  },
-  {
-    id: 2,
-    iconName: "icon-twitter-squared",
-    link: `https://twitter.com/${socialUser}/`,
-  },
-  {
-    id: 3,
-    iconName: "icon-behance-squared",
-    link: `https://www.behance.net/${socialUser}/`,
-  },
-  {
-    id: 4,
-    iconName: "icon-linkedin-squared",
-    link: `https://www.linkedin.com/in/${socialUser}/`,
-  },
-];
+import { socialIcon } from "../socialMedia"
 
 const Sidebar = () => {
   const { navChange, nav, menus } = useContext(TokyoContext);
@@ -71,7 +48,7 @@ const Sidebar = () => {
                   {socialIcon.map((item) => (
                     <li className="mr-[8px] inline-block" key={item.id}>
                       <a
-                        className="text-black text-[25px] transition-all duration-300 hover:text-black"
+                        className="social-icons text-black transition-all duration-300 hover:text-black"
                         href={item.link}
                         target="_blank"
                       >

@@ -18,10 +18,10 @@ const ContactForm = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_arvjaem", // service id
+          "template_vyomyrt", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "PjjXOOAzWyzitIQhF" // public api
         )
         .then(
           (response) => {
