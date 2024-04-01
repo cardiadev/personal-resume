@@ -1,13 +1,13 @@
 export const socialIcon = [
     {
         id: 1,
-        iconName: "icon-facebook-squared",
-        link: `https://www.facebook.com/cardiadev/`,
+        iconName: "icon-linkedin-squared",
+        link: `https://www.linkedin.com/in/cardiadev/`,
     },
     {
         id: 2,
-        iconName: "icon-twitter-squared",
-        link: `https://twitter.com/cardiadev/`,
+        iconName: "icon-github-circled-2",
+        link: `https://www.github.com/cardiadev/`,
     },
     {
         id: 3,
@@ -16,12 +16,12 @@ export const socialIcon = [
     },
     {
         id: 4,
-        iconName: "icon-linkedin-squared",
-        link: `https://www.linkedin.com/in/cardiadev/`,
+        iconName: "icon-twitter-squared",
+        link: `https://twitter.com/cardiadev/`,
     },
     {
         id: 5,
-        iconName: "icon-github-circled-2",
-        link: `https://www.github.com/cardiadev/`,
+        iconName: "icon-facebook-squared",
+        link: `https://www.facebook.com/cardiadev/`,
     },
 ];

@@ -46,7 +46,7 @@ const Sidebar = () => {
         <div className="social w-full float-left mt-[240px] mb-[100px]">
                 <ul className="m-0 list-none">
                   {socialIcon.map((item) => (
-                    <li className="mr-[8px] inline-block" key={item.id}>
+                    <li className="inline-block" key={item.id}>
                       <a
                         className="social-icons text-black transition-all duration-300 hover:text-black"
                         href={item.link}
@@ -62,10 +62,10 @@ const Sidebar = () => {
 
 
         <div className="copyright w-full float-left">
-          <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-            {`© ${new Date().getFullYear()} `} 
+          <p className="text-[15px] font-montserrat leading-[25px]">
+            {`© ${new Date().getFullYear()} | `} 
             <a
-              className="text-[#787878] font-medium transition-all duration-300 hover:text-black"
+              className="text-[#787878] font-semibold transition-all duration-300 hover:text-black"
               href="https://github.com/cardiadev"
               target="_blank"
             >
@@ -73,7 +73,7 @@ const Sidebar = () => {
             </a>
             <br />
           </p>
-            <p>Made with ♥️ and Good Vibes 😉</p>
+          <p className="text-[12px]">Made with ♥️ and Good Vibes 😉</p>
         </div>
       </div>
     </div>
