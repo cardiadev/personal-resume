@@ -1,14 +1,14 @@
 const programming = [
   { id: 1, name: "JavaScript", value: 80 },
   { id: 2, name: "Typescript", value: 70 },
-  { id: 2, name: "NodeJS", value: 70 },
-  { id: 2, name: "React JS", value: 80 },
-  { id: 2, name: "Angular", value: 70 },
-  { id: 2, name: "NestJS", value: 70 },
-  { id: 2, name: "Loopback", value: 50 },
-  { id: 2, name: "Docker", value: 90 },
-  { id: 2, name: "SASS", value: 90 },
-  { id: 3, name: "GIT", value: 90 },
+  { id: 3, name: "NodeJS", value: 70 },
+  { id: 4, name: "React JS", value: 80 },
+  { id: 5, name: "Angular", value: 70 },
+  { id: 6, name: "NestJS", value: 70 },
+  { id: 7, name: "Loopback", value: 50 },
+  { id: 8, name: "Docker", value: 90 },
+  { id: 9, name: "SASS", value: 90 },
+  { id: 10, name: "GIT", value: 90 },
 ];
 const language = [
   { id: 1, name: "Spanish", value: 100 },

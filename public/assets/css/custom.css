@@ -166,7 +166,7 @@
 	border-radius: 100%;
 }
 .tokyo_tm_home .avatar .image{
-	animation: morph 8s ease-in-out infinite 1s;
+	animation: morph 15s ease-in-out infinite 1s;
 	background-blend-mode: multiply;
 	-webkit-box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
     -moz-box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
@@ -481,14 +481,15 @@ body.modal{
   height: 6px;
   z-index: 50;
   background-color: #000;
+  opacity: .5;
   -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
   transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
 .cursor-inner.cursor-hover {
-  margin-left: -40px;
-  margin-top: -40px;
-  width: 80px;
-  height: 80px;
+  margin-left: -15px;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
   background-color: #000;
   opacity: .3;
 }

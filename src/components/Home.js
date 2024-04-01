@@ -19,16 +19,16 @@ const Home = () => {
               />
             </div>
             <div className="details ml-[80px]">
-              <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">
-                Carlos <span>Diaz</span>
+              <h3 className="name text-[55px] font-normal uppercase mb-[14px]">
+                Carlos <span className="font-extrabold">Diaz</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I'm a passionate Fullstack JS Developer and UX Engineer, specializing in technologies like JavaScript, React, Angular, Node.js, and Flutter. With a background in Multimedia Communication Engineering, he creates innovative and user-friendly web and mobile applications.
+              As a Full-stack JS Developer and UX Engineer, I harness JavaScript, React, Angular, Node.js, and Flutter to build engaging, user-centric web and mobile applications. With a background in Multimedia Communication Engineering, I blend technical skill with design insight to create digital experiences that are not only functional but also intuitive and visually appealing. Let's make technology work for us, creating solutions that are both innovative and accessible.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
                   {socialIcon.map((item) => (
-                    <li className="mr-[8px] inline-block" key={item.id}>
+                    <li className="mr-[2px] inline-block" key={item.id}>
                       <a
                         className="text-black text-[40px] transition-all duration-300 hover:text-black"
                         href={item.link}
