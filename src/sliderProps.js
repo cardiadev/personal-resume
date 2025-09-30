@@ -1,4 +1,5 @@
-import SwiperCore, {
+// Swiper modules are now imported from swiper/modules in v11
+import {
   Autoplay,
   EffectCreative,
   EffectFade,
@@ -7,20 +8,11 @@ import SwiperCore, {
   Navigation,
   Pagination,
   Virtual,
-} from "swiper";
-SwiperCore.use([
-  Mousewheel,
-  Pagination,
-  Navigation,
-  EffectFade,
-  Autoplay,
-  Grid,
-  EffectCreative,
-  Virtual,
-]);
+} from "swiper/modules";
 
 export const sliderProps = {
   testimonial: {
+    modules: [Autoplay, Pagination, Navigation],
     loop: true,
     spaceBetween: 30,
     speed: 500,
