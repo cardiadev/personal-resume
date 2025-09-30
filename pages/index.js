@@ -5,12 +5,17 @@ import Home from "components/Home";
 import Blog from "@/src/components/News";
 import Services from "components/Service";
 import dynamic from "next/dynamic";
+import Head from "next/head";
 const Portfolio = dynamic(() => import("components/Portfolio"), {
   ssr: false,
 });
 const Index = () => {
   return (
-    <Layout>
+    <>
+      <Head>
+        <title>Carlos Diaz - Fullstack Developer</title>
+      </Head>
+      <Layout>
       {/* HOME */}
       <Home />
       {/* /HOME */}
@@ -31,6 +36,7 @@ const Index = () => {
       <Contact />
       {/* /CONTACT */}
     </Layout>
+    </>
   );
 };
 export default Index;

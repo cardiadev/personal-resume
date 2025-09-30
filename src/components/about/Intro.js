@@ -1,9 +1,10 @@
 import { Fragment } from "react";
+import Image from "next/image";
 const Intro = () => {
   return (
     <Fragment>
       <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-        <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
+        <Image className="min-w-full" src="/assets/img/slider/1.jpg" alt="Carlos Diaz profile" width={400} height={300} />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
         <h3 className="text-[22px] font-bold">Carlos Diaz</h3>
@@ -11,7 +12,7 @@ const Intro = () => {
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
       <p className="mb-[11px]">
-        Hi, my name is <strong>Carlos Diaz</strong> and I'd like to share a bit about myself. My journey in the field of technology began with a Bachelor's Degree in Multimedia Communication Engineering from the prestigious University of Guadalajara. This comprehensive education equipped me with a solid foundation in manipulating audio, video, images, text, and animation tools to create efficient, functional, and aesthetically pleasing products, projects, and services.
+        Hi, my name is <strong>Carlos Diaz</strong> and I&apos;d like to share a bit about myself. My journey in the field of technology began with a Bachelor&apos;s Degree in Multimedia Communication Engineering from the prestigious University of Guadalajara. This comprehensive education equipped me with a solid foundation in manipulating audio, video, images, text, and animation tools to create efficient, functional, and aesthetically pleasing products, projects, and services.
       </p>
 
       <p className="mb-[11px]"> 

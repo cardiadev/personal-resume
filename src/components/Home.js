@@ -23,7 +23,7 @@ const Home = () => {
                 Carlos <span className="font-extrabold">Diaz</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-              As a Full-stack JS Developer and UX Engineer, I harness JavaScript, React, Angular, Node.js, and Flutter to build engaging, user-centric web and mobile applications. With a background in Multimedia Communication Engineering, I blend technical skill with design insight to create digital experiences that are not only functional but also intuitive and visually appealing. Let's make technology work for us, creating solutions that are both innovative and accessible.
+              As a Full-stack JS Developer and UX Engineer, I harness JavaScript, React, Angular, Node.js, and Flutter to build engaging, user-centric web and mobile applications. With a background in Multimedia Communication Engineering, I blend technical skill with design insight to create digital experiences that are not only functional but also intuitive and visually appealing. Let&apos;s make technology work for us, creating solutions that are both innovative and accessible.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
