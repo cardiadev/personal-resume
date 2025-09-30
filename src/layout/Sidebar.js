@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { TokyoContext } from "../Context";
-import { socialIcon } from "../socialMedia"
+import { socialIcon } from "../socialMedia";
+import Link from "next/link";
+import Image from "next/image";
 
 const Sidebar = () => {
   const { navChange, nav, menus } = useContext(TokyoContext);
@@ -10,16 +12,18 @@ const Sidebar = () => {
         <div className="logo" data-type="image">
           {" "}
           {/* You can use image or text as logo. data-type values are: "image" and "text" */}
-          <a href="/">
-            <img
+          <Link href="/">
+            <Image
               className="max-w-[150px]"
-              src="assets/img/logo/dark.png"
-              alt="image"
+              src="/assets/img/logo/dark.png"
+              alt="Carlos Diaz Logo"
+              width={150}
+              height={50}
             />
             <h3 className="font-poppins font-black text-[31px] tracking-[5px]">
               Carlos Diaz
             </h3>
-          </a>
+          </Link>
         </div>
         <div className="menu px-[0px] py-[50px] w-full float-left">
           <ul className="transition_link m-0 list-none">
