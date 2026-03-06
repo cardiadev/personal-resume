@@ -1,3 +1,11 @@
+/* Custom avatar height override */
+.tokyo_tm_home .avatar {
+    min-height: 400px !important;
+    min-width: 400px !important;
+    height: 400px;
+    width: 400px;
+}
+
 #preloader{
     position: fixed;
     left: 0;

@@ -34,13 +34,13 @@ const Sidebar = () => {
                 }`}
                 key={menu.id}
               >
-                <a
+                <Link
+                  href={menu.href === 'home' ? '/' : `/${menu.href}`}
                   className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"
-                  href={`#${menu.href}`}
                   onClick={() => navChange(menu.href)}
                 >
                   {menu.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

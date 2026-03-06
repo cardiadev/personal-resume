@@ -1,4 +1,5 @@
-import { createContext, useCallback, useReducer } from "react";
+import { createContext, useCallback, useReducer, useEffect } from "react";
+import { useRouter } from "next/router";
 
 // Create Context
 const TokyoContext = createContext();
@@ -81,6 +82,24 @@ const reducer = (state, action) => {
 // Watson State
 const TokyoState = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const router = useRouter();
+
+  // Sync navigation state with current route
+  useEffect(() => {
+    const path = router.pathname;
+    let currentNav = 'home';
+    
+    if (path === '/about') currentNav = 'about';
+    else if (path === '/service') currentNav = 'service';
+    else if (path === '/portfolio') currentNav = 'portfolio';
+    else if (path === '/news') currentNav = 'news';
+    else if (path === '/contact') currentNav = 'contact';
+    
+    dispatch({
+      type: NAV,
+      payload: currentNav,
+    });
+  }, [router.pathname]);
 
   const navChange = useCallback((value) => {
     dispatch({
