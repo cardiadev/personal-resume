@@ -53,9 +53,9 @@ const Intro = () => {
           realm.
         </p>
       </div>
-      <div className="cardiadev_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
+      <div className="sleek_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
         <div className="left w-1/2 pr-[50px]">
-          <div className="cardiadev_tm_info w-full h-auto clear-both float-left">
+          <div className="sleek_tm_info w-full h-auto clear-both float-left">
             <ul className="m-0 list-none">
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -92,7 +92,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="right w-1/2 pl-[50px]">
-          <div className="cardiadev_tm_info">
+          <div className="sleek_tm_info">
             <ul className="m-0 list-none">
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -122,7 +122,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="cardiadev_tm_button" data-position="left">
+      <div className="sleek_tm_button" data-position="left">
         <a href="assets/pdf/CV_Resume_EN_Carlos-Diaz_0623.pdf" download>
           <span>Download CV</span>
         </a>

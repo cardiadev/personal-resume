@@ -8,11 +8,11 @@
 
 // --- Home: avatar ---
 
-.cardiadev_tm_home .avatar {
-  min-height: 400px !important;
-  min-width: 400px !important;
-  height: 400px;
-  width: 400px;
+.sleek_tm_home .avatar {
+  min-height: 300px !important;
+  min-width: 300px !important;
+  height: 300px;
+  width: 300px;
 
   &[data-type="square"] .image {
     animation: none;
@@ -33,7 +33,7 @@
 
 // --- Custom cursor ---
 
-.cardiadev_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
+.sleek_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
   display: none;
 }
 
@@ -85,7 +85,7 @@
 
 // --- Resume list timeline ---
 
-.cardiadev_tm_resume_list ul {
+.sleek_tm_resume_list ul {
   &::before {
     content: "";
     position: absolute;
@@ -111,7 +111,7 @@
 
 // --- Testimonials ---
 
-.cardiadev_tm_testimonials {
+.sleek_tm_testimonials {
   .list ul li .text {
     &::before {
       position: absolute;
@@ -146,7 +146,7 @@
 
 // --- Read More underline animation ---
 
-.cardiadev_tm_read_more a {
+.sleek_tm_read_more a {
   &::before {
     position: absolute;
     content: "";
@@ -172,7 +172,7 @@
 
 // --- Services ---
 
-.cardiadev_tm_services .list ul li .list_inner {
+.sleek_tm_services .list ul li .list_inner {
   &:hover {
     border: 1px solid rgba($color-black, 0.2);
 
@@ -180,7 +180,7 @@
       background-color: rgba($color-black, 0.08);
     }
 
-    .cardiadev_tm_read_more a {
+    .sleek_tm_read_more a {
       &::before {
         animation: read-more-anim-2 0.4s cubic-bezier(0.6, 0.01, 0, 1) forwards;
       }
@@ -192,11 +192,11 @@
 
 // --- Portfolio ---
 
-.cardiadev_tm_portfolio .portfolio_list li .inner:hover .abs_image {
+.sleek_tm_portfolio .portfolio_list li .inner:hover .abs_image {
   transform: scale(1.1) translateZ(0);
 }
 
-.cardiadev_tm_portfolio_titles {
+.sleek_tm_portfolio_titles {
   white-space: nowrap;
   background: $color-white;
   font-size: 18px;
@@ -217,7 +217,7 @@
 
 // --- News / Blog ---
 
-.cardiadev_tm_news ul li .list_inner {
+.sleek_tm_news ul li .list_inner {
   box-shadow: 0 0 20px rgba($color-black, 0.07);
 
   .image:hover .main {
@@ -229,7 +229,7 @@
       box-shadow: 0 0 20px rgba($color-black, 0.12);
     }
 
-    .cardiadev_tm_read_more a {
+    .sleek_tm_read_more a {
       &::before {
         animation: read-more-anim-2 0.4s cubic-bezier(0.6, 0.01, 0, 1) forwards;
       }
@@ -241,7 +241,7 @@
 
 // --- Modal ---
 
-.cardiadev_tm_modalbox {
+.sleek_tm_modalbox {
   .service_popup_informations .image .main {
     @include cover;
     background-repeat: no-repeat;
@@ -259,24 +259,24 @@
     margin-left: 13px;
   }
 
-  .cardiadev_tm_read_more {
+  .sleek_tm_read_more {
     display: none;
   }
 }
 
 // --- Partners ---
-.cardiadev_tm_partners ul {
+.sleek_tm_partners ul {
   min-width: calc(100% + 12px);
 }
 
 // --- Pricing ---
-.cardiadev_tm_pricing .price .currency {
+.sleek_tm_pricing .price .currency {
   position: absolute !important;
 }
 
 // --- Contact form ---
 
-.cardiadev_tm_contact {
+.sleek_tm_contact {
   .fields {
     ul li input {
       width: 100%;
@@ -327,7 +327,7 @@
 
 // --- CTA button ---
 
-.cardiadev_tm_button button {
+.sleek_tm_button button {
   display: inline-block;
   background-color: $color-black;
   padding: 9px 40px 14px;

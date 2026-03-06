@@ -97,7 +97,7 @@ const ContactForm = () => {
             placeholder="Message"
           />
         </div>
-        <div className="cardiadev_tm_button" data-position="left">
+        <div className="sleek_tm_button" data-position="left">
           <button type="submit">Send Message</button>
         </div>
       </form>

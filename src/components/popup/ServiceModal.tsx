@@ -1,11 +1,11 @@
 "use client";
 
-import { CardiaDevContext } from "@/src/Context";
+import { SleekContext } from "@/src/Context";
 import { useContext } from "react";
 import ModalContainer from "./ModalContainer";
 
 const ServiceModal = () => {
-  const { serviceModal, setServiceModal } = useContext(CardiaDevContext);
+  const { serviceModal, setServiceModal } = useContext(SleekContext);
   if (!serviceModal) return null;
   return (
     <ModalContainer nullValue={setServiceModal}>

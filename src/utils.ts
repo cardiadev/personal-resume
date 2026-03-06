@@ -1,4 +1,4 @@
-export const cardiadevUi = {
+export const sleekUi = {
   dataImage() {
     const d = document.querySelectorAll<HTMLElement>("[data-img-url]");
     for (let i = 0; i < d.length; i++) {
@@ -128,30 +128,30 @@ export const cardiadevUi = {
     }
   },
   portfolioHover() {
-    const cardiadev_tm_portfolio_animation_wrap = document.querySelectorAll(
-        ".cardiadev_tm_portfolio_animation_wrap"
+    const sleek_tm_portfolio_animation_wrap = document.querySelectorAll(
+        ".sleek_tm_portfolio_animation_wrap"
       ),
-      cardiadev_tm_portfolio_titles = document.querySelector<HTMLElement>(
-        ".cardiadev_tm_portfolio_titles"
+      sleek_tm_portfolio_titles = document.querySelector<HTMLElement>(
+        ".sleek_tm_portfolio_titles"
       );
-    cardiadev_tm_portfolio_animation_wrap.forEach((element) => {
+    sleek_tm_portfolio_animation_wrap.forEach((element) => {
       element.addEventListener("mousemove", () => {
         const title = element.getAttribute("data-title"),
           category = element.getAttribute("data-category");
-        if (title && cardiadev_tm_portfolio_titles) {
-          cardiadev_tm_portfolio_titles.classList.add("visible");
-          cardiadev_tm_portfolio_titles.innerHTML =
+        if (title && sleek_tm_portfolio_titles) {
+          sleek_tm_portfolio_titles.classList.add("visible");
+          sleek_tm_portfolio_titles.innerHTML =
             title + '<span class="work__cat">' + category + "</span>";
         }
         document.addEventListener("mousemove", (e) => {
-          if (cardiadev_tm_portfolio_titles) {
-            cardiadev_tm_portfolio_titles.style.left = `${e.clientX - 10}px`;
-            cardiadev_tm_portfolio_titles.style.top = `${e.clientY + 25}px`;
+          if (sleek_tm_portfolio_titles) {
+            sleek_tm_portfolio_titles.style.left = `${e.clientX - 10}px`;
+            sleek_tm_portfolio_titles.style.top = `${e.clientY + 25}px`;
           }
         });
       });
       element.addEventListener("mouseleave", () => {
-        cardiadev_tm_portfolio_titles?.classList.remove("visible");
+        sleek_tm_portfolio_titles?.classList.remove("visible");
       });
     });
   },

@@ -1,13 +1,13 @@
 "use client";
 
 import { useContext } from "react";
-import { CardiaDevContext } from "../Context";
+import { SleekContext } from "../Context";
 import { socialIcon } from "../socialMedia";
 import Link from "next/link";
 import Image from "next/image";
 
 const Sidebar = () => {
-  const { navChange, nav, menus } = useContext(CardiaDevContext);
+  const { navChange, nav, menus } = useContext(SleekContext);
   return (
     <div className="leftpart">
       <div>

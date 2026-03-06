@@ -6,9 +6,9 @@ const funFacts = [
 
 const FunFact = () => {
   return (
-    <div className="cardiadev_tm_facts w-full h-auto clear-both float-left px-0 pt-[100px] pb-[60px]">
+    <div className="sleek_tm_facts w-full h-auto clear-both float-left px-0 pt-[100px] pb-[60px]">
       <div className="container">
-        <div className="cardiadev_section_title w-full h-auto clear-both float-left mb-[40px]">
+        <div className="sleek_section_title w-full h-auto clear-both float-left mb-[40px]">
           <h3 className="text-[20px] font-bold">Fun Facts</h3>
         </div>
         <div className="list w-full h-auto clear-both float-left">

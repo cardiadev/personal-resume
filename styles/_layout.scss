@@ -7,7 +7,7 @@
 
 // --- Section transitions (SPA-like page visibility) ---
 
-.cardiadev_tm_section {
+.sleek_tm_section {
   position: absolute;
   inset: 0;
   overflow: hidden;
@@ -51,7 +51,7 @@
   }
 }
 
-.cardiadev_tm_all_wrap .leftpart {
+.sleek_tm_all_wrap .leftpart {
   .logo { @include logo-type-rules; }
 
   .menu ul li.active a {
@@ -59,7 +59,17 @@
   }
 }
 
-.cardiadev_tm_topbar {
+.sleek_tm_all_wrap .rightpart {
+  padding-left: $sidebar-width;
+}
+
+@include respond-to("xl") {
+  .sleek_tm_all_wrap .rightpart {
+    padding-left: 0;
+  }
+}
+
+.sleek_tm_topbar {
   .logo { @include logo-type-rules; }
 
   .hamburger {
@@ -75,13 +85,13 @@
 }
 
 // --- Mobile menu ---
-.cardiadev_tm_mobile_menu.opened {
+.sleek_tm_mobile_menu.opened {
   right: 0;
 }
 
 // Show topbar on smaller viewports
 @include respond-to("xl") {
-  .cardiadev_tm_topbar {
+  .sleek_tm_topbar {
     display: block !important;
   }
 }

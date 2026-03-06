@@ -2,8 +2,10 @@
 // SIDEBAR LAYOUT
 // ============================================================
 
+@use "_variables" as *;
+
 .leftpart {
-  width: 450px;
+  width: $sidebar-width;
   height: 100vh;
   position: fixed;
   left: 0;

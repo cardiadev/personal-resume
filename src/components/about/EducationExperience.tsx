@@ -42,14 +42,14 @@ const educationData = [
 
 const EducationExperience = () => {
   return (
-    <div className="cardiadev_tm_resumebox w-full h-auto clear-both float-left bg-white py-[93px] px-0">
+    <div className="sleek_tm_resumebox w-full h-auto clear-both float-left bg-white py-[93px] px-0">
       <div className="container">
         <div className="in w-full h-auto clear-both float-left flex">
           <div className="left w-1/2 pr-[50px]">
-            <div className="cardiadev_section_title w-full h-auto clear-both float-left mb-[40px]">
+            <div className="sleek_section_title w-full h-auto clear-both float-left mb-[40px]">
               <h3 className="text-[20px] font-bold">Education</h3>
             </div>
-            <div className="cardiadev_tm_resume_list w-full h-auto clear-both float-left">
+            <div className="sleek_tm_resume_list w-full h-auto clear-both float-left">
               <ul className="m-0 list-none relative inline-block pt-[10px]">
                 {educationData.map((edu, i) => (
                   <li
@@ -77,10 +77,10 @@ const EducationExperience = () => {
             </div>
           </div>
           <div className="right w-1/2 pl-[50px]">
-            <div className="cardiadev_section_title w-full h-auto clear-both float-left mb-[40px]">
+            <div className="sleek_section_title w-full h-auto clear-both float-left mb-[40px]">
               <h3 className="text-[20px] font-bold">Experience</h3>
             </div>
-            <div className="cardiadev_tm_resume_list w-full h-auto clear-both float-left">
+            <div className="sleek_tm_resume_list w-full h-auto clear-both float-left">
               <ul className="m-0 list-none relative inline-block pt-[10px]">
                 {experiencesData.map((exp, i) => (
                   <li

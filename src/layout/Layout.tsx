@@ -1,11 +1,11 @@
 "use client";
 
-import { CardiaDevContext } from "@/src/Context";
+import { SleekContext } from "@/src/Context";
 import DetailsModal from "@/src/components/popup/DetailsModal";
 import Cursor from "@/src/layout/Cursor";
 import Mobile from "@/src/layout/Mobile";
 import Sidebar from "@/src/layout/Sidebar";
-import { cardiadevUi } from "@/src/utils";
+import { sleekUi } from "@/src/utils";
 import ImageView from "@/src/components/popup/ImageView";
 import MediaPopup from "@/src/components/popup/MediaPopup";
 import NewsModal from "@/src/components/popup/NewsModal";
@@ -18,10 +18,10 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   useEffect(() => {
-    cardiadevUi.customCursor();
+    sleekUi.customCursor();
   }, []);
   const { modal, serviceModal, newsModal, portfolioDetailsModal } =
-    useContext(CardiaDevContext);
+    useContext(SleekContext);
   return (
     <>
       <MediaPopup />
@@ -30,7 +30,7 @@ const Layout = ({ children }: LayoutProps) => {
       {modal && newsModal && <NewsModal />}
       {modal && portfolioDetailsModal && <DetailsModal />}
       {/* WRAPPER ALL */}
-      <div className="cardiadev_tm_all_wrap">
+      <div className="sleek_tm_all_wrap">
         {/* MOBILE MENU */}
         <Mobile />
         {/* /MOBILE MENU */}
@@ -38,7 +38,7 @@ const Layout = ({ children }: LayoutProps) => {
         <Sidebar />
         {/* /LEFTPART */}
         {/* RIGHTPART */}
-        <div className="rightpart w-full min-h-[100vh] float-left relative bg-[#f8f8f8] pl-[450px]">
+        <div className="rightpart w-full min-h-[100vh] float-left relative bg-[#f8f8f8]">
           <div className="rightpart_in relative w-full float-left clear-both border-solid border-[#ebebeb] border-l min-h-[100vh]">
             {children}
           </div>

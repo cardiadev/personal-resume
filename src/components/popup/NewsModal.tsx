@@ -1,11 +1,11 @@
 "use client";
 
-import { CardiaDevContext } from "@/src/Context";
+import { SleekContext } from "@/src/Context";
 import { useContext } from "react";
 import ModalContainer from "./ModalContainer";
 
 const NewsModal = () => {
-  const { newsModal, setNewsModal } = useContext(CardiaDevContext);
+  const { newsModal, setNewsModal } = useContext(SleekContext);
   if (!newsModal) return null;
   return (
     <ModalContainer nullValue={setNewsModal}>
@@ -22,7 +22,7 @@ const NewsModal = () => {
             backgroundImage: `url(${newsModal.image})`,
           }}
         />
-        <a className="cardiadev_tm_full_link" href="#" />
+        <a className="sleek_tm_full_link" href="#" />
       </div>
       <div className="details w-full float-left px-[40px] pt-[30px] pb-[25px] bg-white transition-all duration-300">
         <div className="extra flex items-center justify-between mb-[25px] relative">

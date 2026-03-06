@@ -44,7 +44,7 @@ export interface PortfolioDetailsModalData {
   images: string[];
 }
 
-export interface CardiaDevContextType {
+export interface SleekContextType {
   menus: MenuItem[];
   nav: string;
   navChange: (value: string) => void;
@@ -79,7 +79,7 @@ type Action =
   | { type: "PORTFOLIODETAILSMODAL"; payload: PortfolioDetailsModalData | null };
 
 // Create Context
-const CardiaDevContext = createContext<CardiaDevContextType>({} as CardiaDevContextType);
+const SleekContext = createContext<SleekContextType>({} as SleekContextType);
 
 // Action types
 const NAV = "NAV" as const;
@@ -129,7 +129,7 @@ const reducer = (state: State, action: Action): State => {
 };
 
 // State Provider
-const CardiaDevState = ({ children }: { children: ReactNode }) => {
+const SleekState = ({ children }: { children: ReactNode }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const pathname = usePathname();
 
@@ -187,7 +187,7 @@ const CardiaDevState = ({ children }: { children: ReactNode }) => {
   } = state;
 
   return (
-    <CardiaDevContext.Provider
+    <SleekContext.Provider
       value={{
         menus,
         nav,
@@ -205,9 +205,9 @@ const CardiaDevState = ({ children }: { children: ReactNode }) => {
       }}
     >
       {children}
-    </CardiaDevContext.Provider>
+    </SleekContext.Provider>
   );
 };
 
-export default CardiaDevState;
-  export { CardiaDevContext };
+export default SleekState;
+export { SleekContext };

@@ -1,14 +1,14 @@
 "use client";
 
 import { useContext, useState } from "react";
-import { CardiaDevContext } from "../Context";
+import { SleekContext } from "../Context";
 
 const Mobile = () => {
   const [toggle, setToggle] = useState(false);
-  const { navChange, nav, menus } = useContext(CardiaDevContext);
+  const { navChange, nav, menus } = useContext(SleekContext);
   return (
     <>
-      <div className="cardiadev_tm_topbar bg-white fixed top-0 left-0 right-0 h-[50px] z-[14] hidden">
+      <div className="sleek_tm_topbar bg-white fixed top-0 left-0 right-0 h-[50px] z-[14] hidden">
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
           <div className="logo" data-type="image">
             {" "}
@@ -38,7 +38,7 @@ const Mobile = () => {
         </div>
       </div>
       <div
-        className={`cardiadev_tm_mobile_menu fixed top-[50px] right-[-200px] h-[100vh] w-[200px] z-[15] bg-white transition-all duration-300 ${
+        className={`sleek_tm_mobile_menu fixed top-[50px] right-[-200px] h-[100vh] w-[200px] z-[15] bg-white transition-all duration-300 ${
           toggle ? "opened" : ""
         }`}
       >

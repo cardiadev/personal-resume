@@ -1,12 +1,12 @@
 "use client";
 
-import { CardiaDevContext } from "@/src/Context";
+import { SleekContext } from "@/src/Context";
 import { useContext } from "react";
 import ModalContainer from "./ModalContainer";
 
 const DetailsModal = () => {
   const { portfolioDetailsModal, setPortfolioDetailsModal } =
-    useContext(CardiaDevContext);
+    useContext(SleekContext);
   if (!portfolioDetailsModal) return null;
   return (
     <ModalContainer nullValue={setPortfolioDetailsModal}>

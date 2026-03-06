@@ -1,7 +1,7 @@
 "use client";
 
 import { useContext, type ReactNode } from "react";
-import { CardiaDevContext } from "../Context";
+import { SleekContext } from "../Context";
 
 interface SectionContainerProps {
   name: string;
@@ -9,11 +9,11 @@ interface SectionContainerProps {
 }
 
 const SectionContainer = ({ name, children }: SectionContainerProps) => {
-  const { nav, animation } = useContext(CardiaDevContext);
+  const { nav, animation } = useContext(SleekContext);
   return (
     <div
       id={name}
-      className={`cardiadev_tm_section ${
+      className={`sleek_tm_section ${
         name === nav ? `animated active ${animation}` : ""
       }`}
     >
