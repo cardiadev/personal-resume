@@ -1,0 +1,22 @@
+// ============================================================
+// DESIGN TOKENS
+// ============================================================
+
+// Colors
+$color-black:      #000000;
+$color-white:      #ffffff;
+$color-gray-bg:    #f8f8f8;
+$color-border:     #ebebeb;
+$color-text-muted: #767676;
+$color-error:      #f52225;
+$color-link:       #3a00ff;
+$color-preloader:  #999999;
+
+// Layout
+$sidebar-width:  450px;
+$topbar-height:  50px;
+
+// Z-indexes
+$z-sidebar:      12;
+$z-mobile-menu:  15;
+$z-preloader:    99999;

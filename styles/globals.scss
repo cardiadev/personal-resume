@@ -1,0 +1,53 @@
+// ============================================================
+// GLOBAL STYLES — Entry Point
+// ============================================================
+//
+// Architecture:
+//   _variables.scss  — design tokens (SCSS vars + CSS custom properties)
+//   _mixins.scss     — responsive helpers, utility mixins
+//   _animations.scss — @keyframe declarations
+//   _preloader.scss  — preloader component styles
+//   _layout.scss     — sections, sidebar, mobile menu, logo
+//   _components.scss — UI components (avatar, cursor, forms, modals…)
+//
+// Vendor CSS (Swiper) is imported directly in app/layout.tsx
+// Template CSS (main.css, plugins.css) served from public/assets/css/
+// ============================================================
+
+// 1. Design tokens (exposes CSS custom properties via :root)
+@use "variables";
+
+// 2. Mixins (no CSS output — utility only)
+@use "mixins";
+
+// 3. Keyframes
+@use "animations";
+
+// 4. Preloader
+@use "preloader";
+
+// 5. Layout
+@use "layout";
+
+// 6. Components
+@use "components";
+
+// 7. Image popup overrides
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  max-height: 392px;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mfp-img-container {
+  .mfp-content { max-width: 400px !important; }
+
+  .mfp-close {
+    top: -110px;
+    right: -24px;
+  }
+}

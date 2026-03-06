@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { Mulish, Poppins, Open_Sans, Montserrat } from "next/font/google";
 import Providers from "./providers";
-import "@/styles/globals.css";
+import "@/styles/globals.scss";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const mulish = Mulish({
   subsets: ["latin"],
@@ -44,12 +48,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" href="/assets/img/logo/dark.png" />
         <link rel="stylesheet" href="/assets/css/plugins.css" />
-        <link rel="stylesheet" href="/assets/css/custom.css" />
         <link rel="stylesheet" href="/assets/css/main.css" />
       </head>
       <body

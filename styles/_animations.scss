@@ -1,0 +1,69 @@
+// ============================================================
+// KEYFRAME ANIMATIONS
+// ============================================================
+
+// Preloader line grow
+@keyframes lineheight {
+  0%   { height: 0%; }
+  100% { height: 100%; }
+}
+
+// Preloader line travel
+@keyframes lineround {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
+
+// Preloader exit
+@keyframes preloadedzero {
+  0%   { width: 50%; }
+  100% { width: 0%; }
+}
+
+// Avatar blob morph
+@keyframes morph {
+  0%   { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  50%  { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+}
+
+// Read-more underline retract
+@keyframes read-more-anim {
+  0% {
+    transform-origin: right center;
+    transform: scaleX(0.2);
+  }
+  70% { transform-origin: right center; }
+  71% {
+    transform-origin: left center;
+    transform: scaleX(1);
+  }
+  100% {
+    transform-origin: left center;
+    transform: scaleX(0.2);
+  }
+}
+
+// Read-more underline extend
+@keyframes read-more-anim-2 {
+  0% {
+    transform-origin: left center;
+    transform: scaleX(0.2);
+  }
+  70% {
+    transform-origin: left center;
+    transform: scaleX(1);
+  }
+  71% { transform-origin: right center; }
+  100% {
+    transform-origin: right center;
+    transform: scaleX(0.2);
+  }
+}
+
+// Pricing badge pulse
+@keyframes myAnim {
+  0%   { transform: scale(0.1); opacity: 0; }
+  50%  { opacity: 0.3; }
+  100% { transform: scale(2); opacity: 0; }
+}

@@ -1,0 +1,74 @@
+// ============================================================
+// MIXINS
+// ============================================================
+
+@use "sass:map";
+@use "variables" as *;
+
+// Breakpoints
+$breakpoints: (
+  "xl": 1200px,
+  "lg": 1024px,
+  "md": 768px,
+  "sm": 640px,
+) !default;
+
+/// Max-width responsive helper
+@mixin respond-to($bp) {
+  @if map.has-key($breakpoints, $bp) {
+    @media (max-width: #{map.get($breakpoints, $bp)}) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint `#{$bp}` not found in $breakpoints.";
+  }
+}
+
+/// Shorthand transition
+@mixin transition($props: all, $duration: 0.3s, $easing: ease) {
+  transition: $props $duration $easing;
+}
+
+/// Flexbox center helper
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/// Absolute full-cover positioning
+@mixin cover {
+  position: absolute;
+  inset: 0;
+}
+
+/// Hide scrollbar (all browsers)
+@mixin hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+
+/// Thin custom scrollbar
+@mixin thin-scrollbar($thumb: #999, $track: #fff, $size: 11px) {
+  scrollbar-width: thin;
+  scrollbar-color: $thumb $track;
+
+  &::-webkit-scrollbar {
+    width: $size;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $track;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $thumb;
+    border-radius: 6px;
+    border: 3px solid $track;
+  }
+}

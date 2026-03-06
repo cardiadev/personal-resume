@@ -1,0 +1,87 @@
+// ============================================================
+// LAYOUT — Sections, Sidebar, Mobile Menu, Logo
+// ============================================================
+
+@use "variables" as *;
+@use "mixins" as *;
+
+// --- Section transitions (SPA-like page visibility) ---
+
+.tokyo_tm_section {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  @include hide-scrollbar;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 8;
+  transition: visibility 1s linear, opacity 0s linear;
+
+  &.animated {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+  }
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+  }
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+  }
+}
+
+// --- Logo: image vs text mode ---
+
+@mixin logo-type-rules {
+  &[data-type="image"] {
+    img { display: inline-block; }
+    h3  { display: none; }
+  }
+
+  &[data-type="text"] {
+    img { display: none; }
+    h3  { display: inline-block; }
+  }
+}
+
+.tokyo_tm_all_wrap .leftpart {
+  .logo { @include logo-type-rules; }
+
+  .menu ul li.active a {
+    color: $color-black;
+  }
+}
+
+.tokyo_tm_topbar {
+  .logo { @include logo-type-rules; }
+
+  .hamburger {
+    padding: 0;
+  }
+
+  .hamburger-inner,
+  .hamburger-inner::before,
+  .hamburger-inner::after {
+    width: 30px;
+    height: 2px;
+  }
+}
+
+// --- Mobile menu ---
+.tokyo_tm_mobile_menu.opened {
+  right: 0;
+}
+
+// Show topbar on smaller viewports
+@include respond-to("xl") {
+  .tokyo_tm_topbar {
+    display: block !important;
+  }
+}
