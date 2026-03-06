@@ -1,0 +1,132 @@
+// ============================================================
+// SIDEBAR LAYOUT
+// ============================================================
+
+.leftpart {
+  width: 450px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 12;
+  background-color: white;
+  padding: 50px 100px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  // --- Logo section ---
+  .leftpart_inner {
+    margin-bottom: 0;
+
+    a {
+      text-decoration: none;
+    }
+
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-size: 31px;
+      letter-spacing: 5px;
+      margin: 0;
+    }
+
+    img {
+      max-width: 150px;
+      display: block;
+    }
+  }
+
+  // --- Menu section ---
+  .menu {
+    padding: 50px 0;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0;
+        width: 100%;
+        float: left;
+
+        a {
+          color: #767676;
+          text-transform: capitalize;
+          display: inline-block;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 500;
+          transition: color 300ms ease;
+
+          &:hover {
+            color: black;
+          }
+        }
+
+        &.active a {
+          color: black;
+        }
+      }
+    }
+  }
+
+  // --- Social section ---
+  .social {
+    margin-bottom: 30px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        margin-right: 15px;
+
+        a {
+          color: black;
+          transition: color 300ms ease;
+          font-size: 22px;
+          text-decoration: none;
+          display: inline-block;
+
+          &:hover {
+            color: black;
+          }
+
+          i {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  // --- Copyright section ---
+  .copyright {
+    p {
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      line-height: 25px;
+
+      &:last-child {
+        font-size: 12px;
+        margin-top: 5px;
+      }
+
+      a {
+        color: #787878;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 300ms ease;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}

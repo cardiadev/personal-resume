@@ -1,3 +1,4 @@
+"use client";
 import SectionContainer from "./SectionContainer";
 import { socialIcon } from "../socialMedia";
 
@@ -37,6 +38,21 @@ const Home = () => {
                 rigor&mdash;to deliver products that are both high-performance
                 and human-centered.
               </p>
+              <div className="mb-[25px]">
+                <button
+                  onClick={() => {
+                    const a = document.createElement("a");
+                    a.href = "/assets/pdf/CV_Resume_EN_Carlos-Diaz_0623.pdf";
+                    a.download = "Carlos-Diaz-CV.pdf";
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                  }}
+                  className="cursor-pointer px-[35px] py-[13px] bg-black text-white font-montserrat font-semibold text-[13px] uppercase tracking-[2px] border-0 transition-all duration-300 hover:bg-[#333]"
+                >
+                  Download CV
+                </button>
+              </div>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
                   {socialIcon.map((item) => (
