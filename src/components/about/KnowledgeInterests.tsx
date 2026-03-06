@@ -1,3 +1,14 @@
+// Inline arrow SVG — avoids DOM-swapping via imageToSvg() which breaks React reconciliation
+const RightArrow = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 386.258 386.258"
+    className="fill-current text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]"
+  >
+    <polygon points="96.879,0 96.879,386.258 289.379,193.129" />
+  </svg>
+);
+
 const knowledge = [
   { id: 1, text: "Bootstrap" },
   { id: 2, text: "Webpack, Vite" },
@@ -27,11 +38,7 @@ const KnowledgeInterests = () => {
                 {knowledge.map((item) => (
                   <li className="m-0 pl-[25px] relative" key={item.id}>
                     <span>
-                      <img
-                        className="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]"
-                        src="assets/img/svg/rightarrow.svg"
-                        alt="image"
-                      />
+                      <RightArrow />
                       {item.text}
                     </span>
                   </li>
@@ -48,11 +55,7 @@ const KnowledgeInterests = () => {
                 {interests.map((item) => (
                   <li className="m-0 pl-[25px] relative" key={item.id}>
                     <span>
-                      <img
-                        className="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]"
-                        src="assets/img/svg/rightarrow.svg"
-                        alt="image"
-                      />
+                      <RightArrow />
                       {item.text}
                     </span>
                   </li>

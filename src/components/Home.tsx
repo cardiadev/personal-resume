@@ -14,7 +14,7 @@ const Home = () => {
               {" "}
               <div
                 className="image absolute inset-0 bg-no-repeat bg-center bg-cover"
-                data-img-url="assets/img/slider/me_03.jpg"
+                style={{ backgroundImage: "url(assets/img/slider/me_03.jpg)" }}
               />
             </div>
             <div className="details ml-[80px]">

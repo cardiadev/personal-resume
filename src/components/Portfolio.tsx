@@ -1,9 +1,8 @@
 "use client";
 
 import Isotope from "isotope-layout";
-import { useContext, useEffect, useRef, useState } from "react";
+import { useCallback, useContext, useEffect, useRef, useState } from "react";
 import { TokyoContext, type PortfolioDetailsModalData } from "../Context";
-import { tokyo } from "../utils";
 import SectionContainer from "./SectionContainer";
 import SectionTitle from "./SectionTitle";
 
@@ -85,6 +84,21 @@ const detailData: PortfolioDetailsModalData[] = [
 const Portfolio = () => {
   const isotope = useRef<any>(null);
   const [filterKey, setFilterKey] = useState("*");
+  const [hoverInfo, setHoverInfo] = useState<{
+    title: string;
+    category: string;
+    x: number;
+    y: number;
+  } | null>(null);
+
+  const handlePortfolioMouseMove = useCallback(
+    (title: string, category: string) =>
+      (e: React.MouseEvent) => {
+        setHoverInfo({ title, category, x: e.clientX - 10, y: e.clientY + 25 });
+      },
+    []
+  );
+  const handlePortfolioMouseLeave = useCallback(() => setHoverInfo(null), []);
   useEffect(() => {
     const data = document.querySelector(".item__");
     if (data) {
@@ -95,6 +109,7 @@ const Portfolio = () => {
       }, 3000);
     }
   }, []);
+
   useEffect(() => {
     if (isotope.current) {
       filterKey === "*"
@@ -102,16 +117,24 @@ const Portfolio = () => {
         : isotope.current.arrange({ filter: `.${filterKey}` });
     }
   }, [filterKey]);
+
   const handleFilterKeyChange = (key: string) => () => {
     setFilterKey(key);
   };
-  useEffect(() => {
-    tokyo.portfolioHover();
-    tokyo.dataImage();
-  });
+
   const { setPortfolioDetailsModal, modalToggle } = useContext(TokyoContext);
   return (
     <SectionContainer name="portfolio">
+      {/* Portfolio hover title — rendered by React, positioned via state */}
+      {hoverInfo && (
+        <div
+          className="tokyo_tm_portfolio_titles"
+          style={{ left: hoverInfo.x, top: hoverInfo.y }}
+        >
+          {hoverInfo.title}
+          <span className="work__cat">{hoverInfo.category}</span>
+        </div>
+      )}
       <div className="container">
         <div className="tokyo_tm_portfolio w-full h-auto clear-both float-left px-0 pt-[100px] pb-[40px]">
           <div className="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
@@ -188,6 +211,8 @@ const Portfolio = () => {
                     className="entry tokyo_tm_portfolio_animation_wrap"
                     data-title="Punta de Mita"
                     data-category="Vimeo"
+                    onMouseMove={handlePortfolioMouseMove("Punta de Mita", "Vimeo")}
+                    onMouseLeave={handlePortfolioMouseLeave}
                   >
                     <a
                       className="popup-vimeo"
@@ -200,7 +225,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/5.jpg"
+                        style={{ backgroundImage: "url(assets/img/portfolio/5.jpg)" }}
                       />
                     </a>
                   </div>
@@ -212,6 +237,8 @@ const Portfolio = () => {
                     className="entry tokyo_tm_portfolio_animation_wrap"
                     data-title={detailData[0].client}
                     data-category="Detail"
+                    onMouseMove={handlePortfolioMouseMove(detailData[0].client, "Detail")}
+                    onMouseLeave={handlePortfolioMouseLeave}
                   >
                     <a
                       className="popup_info"
@@ -229,7 +256,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/7.jpg"
+                        style={{ backgroundImage: "url(assets/img/portfolio/7.jpg)" }}
                       />
                     </a>
                   </div>

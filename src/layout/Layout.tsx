@@ -18,8 +18,6 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   useEffect(() => {
-    tokyo.dataImage();
-    tokyo.imageToSvg();
     tokyo.customCursor();
   }, []);
   const { modal, serviceModal, newsModal, portfolioDetailsModal } =

@@ -6,10 +6,5 @@ export const metadata: Metadata = {
 };
 
 export default function PortfolioPage() {
-  return (
-    <>
-      <div className="tokyo_tm_portfolio_titles" />
-      <PortfolioClient />
-    </>
-  );
+  return <PortfolioClient />;
 }
