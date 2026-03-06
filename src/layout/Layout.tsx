@@ -1,11 +1,11 @@
 "use client";
 
-import { TokyoContext } from "@/src/Context";
+import { CardiaDevContext } from "@/src/Context";
 import DetailsModal from "@/src/components/popup/DetailsModal";
 import Cursor from "@/src/layout/Cursor";
 import Mobile from "@/src/layout/Mobile";
 import Sidebar from "@/src/layout/Sidebar";
-import { tokyo } from "@/src/utils";
+import { cardiadevUi } from "@/src/utils";
 import ImageView from "@/src/components/popup/ImageView";
 import MediaPopup from "@/src/components/popup/MediaPopup";
 import NewsModal from "@/src/components/popup/NewsModal";
@@ -18,10 +18,10 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   useEffect(() => {
-    tokyo.customCursor();
+    cardiadevUi.customCursor();
   }, []);
   const { modal, serviceModal, newsModal, portfolioDetailsModal } =
-    useContext(TokyoContext);
+    useContext(CardiaDevContext);
   return (
     <>
       <MediaPopup />
@@ -30,7 +30,7 @@ const Layout = ({ children }: LayoutProps) => {
       {modal && newsModal && <NewsModal />}
       {modal && portfolioDetailsModal && <DetailsModal />}
       {/* WRAPPER ALL */}
-      <div className="tokyo_tm_all_wrap">
+      <div className="cardiadev_tm_all_wrap">
         {/* MOBILE MENU */}
         <Mobile />
         {/* /MOBILE MENU */}

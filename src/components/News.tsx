@@ -1,7 +1,7 @@
 "use client";
 
 import { useContext } from "react";
-import { TokyoContext, type NewsModalData } from "../Context";
+import { CardiaDevContext, type NewsModalData } from "../Context";
 import SectionContainer from "./SectionContainer";
 import SectionTitle from "./SectionTitle";
 
@@ -37,15 +37,15 @@ const news: NewsModalData[] = [
 ];
 
 const Blog = () => {
-  const { setNewsModal, modalToggle } = useContext(TokyoContext);
+  const { setNewsModal, modalToggle } = useContext(CardiaDevContext);
   return (
     <SectionContainer name="news">
       <div className="container">
-        <div className="tokyo_tm_news w-full clear-both float-left h-auto pt-[100px] px-0 pb-[45px]">
+        <div className="cardiadev_tm_news w-full clear-both float-left h-auto pt-[100px] px-0 pb-[45px]">
           <h2 className="mb-[62px] uppercase font-extrabold font-montserrat">
             Under Construction
           </h2>
-          <div className="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
+          <div className="cardiadev_tm_title w-full h-auto clear-both float-left mb-[62px]">
             <div className="title_flex w-full h-auto clear-both flex justify-between items-end">
               <SectionTitle pageName="Blog" title="Latest Posts" />
             </div>
@@ -69,7 +69,7 @@ const Blog = () => {
                       style={{ backgroundImage: `url(${item.image})` }}
                     />
                     <a
-                      className="tokyo_tm_full_link"
+                      className="cardiadev_tm_full_link"
                       href="#"
                       onClick={(e) => {
                         e.preventDefault();
@@ -111,7 +111,7 @@ const Blog = () => {
                         {item.title}
                       </a>
                     </h3>
-                    <div className="tokyo_tm_read_more">
+                    <div className="cardiadev_tm_read_more">
                       <a
                         href="#"
                         onClick={(e) => {

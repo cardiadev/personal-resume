@@ -1,14 +1,14 @@
 "use client";
 
 import { useContext, useState } from "react";
-import { TokyoContext } from "../Context";
+import { CardiaDevContext } from "../Context";
 
 const Mobile = () => {
   const [toggle, setToggle] = useState(false);
-  const { navChange, nav, menus } = useContext(TokyoContext);
+  const { navChange, nav, menus } = useContext(CardiaDevContext);
   return (
     <>
-      <div className="tokyo_tm_topbar bg-white fixed top-0 left-0 right-0 h-[50px] z-[14] hidden">
+      <div className="cardiadev_tm_topbar bg-white fixed top-0 left-0 right-0 h-[50px] z-[14] hidden">
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
           <div className="logo" data-type="image">
             {" "}
@@ -19,7 +19,7 @@ const Mobile = () => {
                 alt="image"
               />
               <h3 className="font-black font-poppins text-[25px] tracking-[4px]">
-                TOKYO
+                CARLOS DIAZ
               </h3>
             </a>
           </div>
@@ -38,7 +38,7 @@ const Mobile = () => {
         </div>
       </div>
       <div
-        className={`tokyo_tm_mobile_menu fixed top-[50px] right-[-200px] h-[100vh] w-[200px] z-[15] bg-white transition-all duration-300 ${
+        className={`cardiadev_tm_mobile_menu fixed top-[50px] right-[-200px] h-[100vh] w-[200px] z-[15] bg-white transition-all duration-300 ${
           toggle ? "opened" : ""
         }`}
       >

@@ -1,6 +1,6 @@
 "use client";
 
-import { TokyoContext } from "@/src/Context";
+import { CardiaDevContext } from "@/src/Context";
 import useClickOutside from "@/src/useClickOutside";
 import { useContext, type ReactNode } from "react";
 
@@ -10,13 +10,13 @@ interface ModalContainerProps {
 }
 
 const ModalContainer = ({ children, nullValue }: ModalContainerProps) => {
-  const { modalToggle } = useContext(TokyoContext);
+  const { modalToggle } = useContext(CardiaDevContext);
   const domNode = useClickOutside(() => {
     modalToggle(false);
     nullValue(null);
   });
   return (
-    <div className="tokyo_tm_modalbox opened">
+    <div className="cardiadev_tm_modalbox opened">
       <div className="box_inner" ref={domNode}>
         <div className="close">
           <a

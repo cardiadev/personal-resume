@@ -44,7 +44,7 @@ export interface PortfolioDetailsModalData {
   images: string[];
 }
 
-export interface TokyoContextType {
+export interface CardiaDevContextType {
   menus: MenuItem[];
   nav: string;
   navChange: (value: string) => void;
@@ -79,7 +79,7 @@ type Action =
   | { type: "PORTFOLIODETAILSMODAL"; payload: PortfolioDetailsModalData | null };
 
 // Create Context
-const TokyoContext = createContext<TokyoContextType>({} as TokyoContextType);
+const CardiaDevContext = createContext<CardiaDevContextType>({} as CardiaDevContextType);
 
 // Action types
 const NAV = "NAV" as const;
@@ -129,7 +129,7 @@ const reducer = (state: State, action: Action): State => {
 };
 
 // State Provider
-const TokyoState = ({ children }: { children: ReactNode }) => {
+const CardiaDevState = ({ children }: { children: ReactNode }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const pathname = usePathname();
 
@@ -187,7 +187,7 @@ const TokyoState = ({ children }: { children: ReactNode }) => {
   } = state;
 
   return (
-    <TokyoContext.Provider
+    <CardiaDevContext.Provider
       value={{
         menus,
         nav,
@@ -205,9 +205,9 @@ const TokyoState = ({ children }: { children: ReactNode }) => {
       }}
     >
       {children}
-    </TokyoContext.Provider>
+    </CardiaDevContext.Provider>
   );
 };
 
-export default TokyoState;
-export { TokyoContext };
+export default CardiaDevState;
+  export { CardiaDevContext };

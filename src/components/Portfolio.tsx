@@ -2,7 +2,7 @@
 
 import Isotope from "isotope-layout";
 import { useCallback, useContext, useEffect, useRef, useState } from "react";
-import { TokyoContext, type PortfolioDetailsModalData } from "../Context";
+import { CardiaDevContext, type PortfolioDetailsModalData } from "../Context";
 import SectionContainer from "./SectionContainer";
 import SectionTitle from "./SectionTitle";
 
@@ -122,13 +122,13 @@ const Portfolio = () => {
     setFilterKey(key);
   };
 
-  const { setPortfolioDetailsModal, modalToggle } = useContext(TokyoContext);
+  const { setPortfolioDetailsModal, modalToggle } = useContext(CardiaDevContext);
   return (
     <SectionContainer name="portfolio">
       {/* Portfolio hover title — rendered by React, positioned via state */}
       {hoverInfo && (
         <div
-          className="tokyo_tm_portfolio_titles"
+          className="cardiadev_tm_portfolio_titles"
           style={{ left: hoverInfo.x, top: hoverInfo.y }}
         >
           {hoverInfo.title}
@@ -136,8 +136,8 @@ const Portfolio = () => {
         </div>
       )}
       <div className="container">
-        <div className="tokyo_tm_portfolio w-full h-auto clear-both float-left px-0 pt-[100px] pb-[40px]">
-          <div className="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
+        <div className="cardiadev_tm_portfolio w-full h-auto clear-both float-left px-0 pt-[100px] pb-[40px]">
+          <div className="cardiadev_tm_title w-full h-auto clear-both float-left mb-[62px]">
             <div className="title_flex w-full h-auto clear-both flex justify-between items-end">
               <SectionTitle
                 pageName="Portfolio"
@@ -208,7 +208,7 @@ const Portfolio = () => {
               <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    className="entry cardiadev_tm_portfolio_animation_wrap"
                     data-title="Punta de Mita"
                     data-category="Vimeo"
                     onMouseMove={handlePortfolioMouseMove("Punta de Mita", "Vimeo")}
@@ -234,7 +234,7 @@ const Portfolio = () => {
               <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    className="entry cardiadev_tm_portfolio_animation_wrap"
                     data-title={detailData[0].client}
                     data-category="Detail"
                     onMouseMove={handlePortfolioMouseMove(detailData[0].client, "Detail")}

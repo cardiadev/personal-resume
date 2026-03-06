@@ -1,4 +1,4 @@
-export const tokyo = {
+export const cardiadevUi = {
   dataImage() {
     const d = document.querySelectorAll<HTMLElement>("[data-img-url]");
     for (let i = 0; i < d.length; i++) {
@@ -128,30 +128,30 @@ export const tokyo = {
     }
   },
   portfolioHover() {
-    const tokyo_tm_portfolio_animation_wrap = document.querySelectorAll(
-        ".tokyo_tm_portfolio_animation_wrap"
+    const cardiadev_tm_portfolio_animation_wrap = document.querySelectorAll(
+        ".cardiadev_tm_portfolio_animation_wrap"
       ),
-      tokyo_tm_portfolio_titles = document.querySelector<HTMLElement>(
-        ".tokyo_tm_portfolio_titles"
+      cardiadev_tm_portfolio_titles = document.querySelector<HTMLElement>(
+        ".cardiadev_tm_portfolio_titles"
       );
-    tokyo_tm_portfolio_animation_wrap.forEach((element) => {
+    cardiadev_tm_portfolio_animation_wrap.forEach((element) => {
       element.addEventListener("mousemove", () => {
         const title = element.getAttribute("data-title"),
           category = element.getAttribute("data-category");
-        if (title && tokyo_tm_portfolio_titles) {
-          tokyo_tm_portfolio_titles.classList.add("visible");
-          tokyo_tm_portfolio_titles.innerHTML =
+        if (title && cardiadev_tm_portfolio_titles) {
+          cardiadev_tm_portfolio_titles.classList.add("visible");
+          cardiadev_tm_portfolio_titles.innerHTML =
             title + '<span class="work__cat">' + category + "</span>";
         }
         document.addEventListener("mousemove", (e) => {
-          if (tokyo_tm_portfolio_titles) {
-            tokyo_tm_portfolio_titles.style.left = `${e.clientX - 10}px`;
-            tokyo_tm_portfolio_titles.style.top = `${e.clientY + 25}px`;
+          if (cardiadev_tm_portfolio_titles) {
+            cardiadev_tm_portfolio_titles.style.left = `${e.clientX - 10}px`;
+            cardiadev_tm_portfolio_titles.style.top = `${e.clientY + 25}px`;
           }
         });
       });
       element.addEventListener("mouseleave", () => {
-        tokyo_tm_portfolio_titles?.classList.remove("visible");
+        cardiadev_tm_portfolio_titles?.classList.remove("visible");
       });
     });
   },

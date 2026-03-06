@@ -6,13 +6,15 @@
 //   _variables.scss  — design tokens (SCSS vars + CSS custom properties)
 //   _mixins.scss     — responsive helpers, utility mixins
 //   _animations.scss — @keyframe declarations
+//   _legacy-plugins.scss — migrated plugin/vendor styles from template CSS
+//   _legacy-main.scss — migrated template layout/component styles
 //   _preloader.scss  — preloader component styles
 //   _layout.scss     — sections, mobile menu, logo
 //   _sidebar.scss    — sidebar layout & spacing
 //   _components.scss — UI components (avatar, cursor, forms, modals…)
 //
 // Vendor CSS (Swiper) is imported directly in app/layout.tsx
-// Template CSS (main.css, plugins.css) served from public/assets/css/
+// Legacy template CSS is now imported through SCSS partials below
 // ============================================================
 
 // 1. Design tokens (exposes CSS custom properties via :root)
@@ -24,19 +26,23 @@
 // 3. Keyframes
 @use "animations";
 
-// 4. Preloader
+// 4. Migrated legacy vendor/template styles
+@use "legacy-plugins";
+@use "legacy-main";
+
+// 5. Preloader
 @use "preloader";
 
-// 5. Layout
+// 6. Layout
 @use "layout";
 
-// 5b. Sidebar
+// 6b. Sidebar
 @use "sidebar";
 
-// 6. Components
+// 7. Components
 @use "components";
 
-// 7. Image popup overrides
+// 8. Image popup overrides
 img.mfp-img {
   box-shadow: 0 0 8px rgb(0 0 0 / 60%);
   position: absolute;

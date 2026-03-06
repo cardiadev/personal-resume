@@ -1,13 +1,13 @@
 "use client";
 
 import { useContext } from "react";
-import { TokyoContext } from "../Context";
+import { CardiaDevContext } from "../Context";
 import { socialIcon } from "../socialMedia";
 import Link from "next/link";
 import Image from "next/image";
 
 const Sidebar = () => {
-  const { navChange, nav, menus } = useContext(TokyoContext);
+  const { navChange, nav, menus } = useContext(CardiaDevContext);
   return (
     <div className="leftpart">
       <div>

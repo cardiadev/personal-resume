@@ -1,11 +1,11 @@
 "use client";
 
-import { TokyoContext } from "@/src/Context";
+import { CardiaDevContext } from "@/src/Context";
 import { useContext } from "react";
 import ModalContainer from "./ModalContainer";
 
 const ServiceModal = () => {
-  const { serviceModal, setServiceModal } = useContext(TokyoContext);
+  const { serviceModal, setServiceModal } = useContext(CardiaDevContext);
   if (!serviceModal) return null;
   return (
     <ModalContainer nullValue={setServiceModal}>

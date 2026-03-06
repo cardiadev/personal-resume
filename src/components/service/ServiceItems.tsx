@@ -1,6 +1,6 @@
 "use client";
 
-import { TokyoContext, type ServiceModalData } from "@/src/Context";
+import { CardiaDevContext, type ServiceModalData } from "@/src/Context";
 import { useContext } from "react";
 
 const services: ServiceModalData[] = [
@@ -8,9 +8,9 @@ const services: ServiceModalData[] = [
     id: 1,
     name: "Web Design",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "CardiaDev delivers web design and frontend engineering focused on clarity, conversion, and a strong product experience that reflects your brand.",
       "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      "That's why more companies are not only reevaluating their website's design but also partnering with Tokyo, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "That is why teams invest in a tailored website experience built around performance, UX, and maintainable code that can scale with the business.",
     ],
     image: "assets/img/news/1.jpg",
   },
@@ -18,9 +18,9 @@ const services: ServiceModalData[] = [
     id: 2,
     name: "Content Writing",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "CardiaDev shapes content with product intent, making sure copy supports navigation, explains value clearly, and helps people move through the experience.",
       "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      "That's why more companies are not only reevaluating their website's design but also partnering with Tokyo, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Strong messaging aligns product, interface, and brand voice so each section communicates with purpose instead of filling space.",
     ],
     image: "assets/img/news/2.jpg",
   },
@@ -28,9 +28,9 @@ const services: ServiceModalData[] = [
     id: 3,
     name: "Brand Identity",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "CardiaDev helps translate product positioning into a sharper digital identity through typography, visual structure, and consistent interface decisions.",
       "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      "That's why more companies are not only reevaluating their website's design but also partnering with Tokyo, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "A brand becomes more credible when the product experience, visual system, and communication all reinforce the same story.",
     ],
     image: "assets/img/news/3.jpg",
   },
@@ -38,9 +38,9 @@ const services: ServiceModalData[] = [
     id: 4,
     name: "Live Chat",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "CardiaDev integrates real-time support experiences that feel native to the product instead of bolted on as an afterthought.",
       "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      "That's why more companies are not only reevaluating their website's design but also partnering with Tokyo, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Done well, support UI reduces friction, improves trust, and gives users a fast path to resolve questions without leaving the flow.",
     ],
     image: "assets/img/news/4.jpg",
   },
@@ -48,9 +48,9 @@ const services: ServiceModalData[] = [
     id: 5,
     name: "After Effects",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "CardiaDev uses motion intentionally to support storytelling, highlight hierarchy, and make interactions feel more polished and alive.",
       "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      "That's why more companies are not only reevaluating their website's design but also partnering with Tokyo, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Motion should add clarity and personality, not distraction, especially in product-focused interfaces and portfolio presentation.",
     ],
     image: "assets/img/news/1.jpg",
   },
@@ -58,16 +58,16 @@ const services: ServiceModalData[] = [
     id: 6,
     name: "Mobile App",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "CardiaDev designs mobile experiences that prioritize usability, speed, and clear flows so people can complete tasks without friction.",
       "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      "That's why more companies are not only reevaluating their website's design but also partnering with Tokyo, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Responsive thinking, interface consistency, and performance matter even more on smaller screens where every decision is amplified.",
     ],
     image: "assets/img/news/2.jpg",
   },
 ];
 
 const ServiceItems = () => {
-  const { setServiceModal, modalToggle } = useContext(TokyoContext);
+  const { setServiceModal, modalToggle } = useContext(CardiaDevContext);
   return (
     <div className="list w-full h-auto clear-both float-left">
       <ul className="ml-[-40px] list-none flex flex-wrap">
@@ -81,7 +81,7 @@ const ServiceItems = () => {
                 {service.name}
               </h3>
               <p className="text">{service.text[0].slice(0, 70)}...</p>
-              <div className="tokyo_tm_read_more">
+              <div className="cardiadev_tm_read_more">
                 <a
                   href="#"
                   onClick={(e) => {
@@ -94,7 +94,7 @@ const ServiceItems = () => {
                 </a>
               </div>
               <a
-                className="tokyo_tm_full_link"
+                className="cardiadev_tm_full_link"
                 href="#"
                 onClick={(e) => {
                   e.preventDefault();

@@ -7,7 +7,7 @@
 
 // --- Section transitions (SPA-like page visibility) ---
 
-.tokyo_tm_section {
+.cardiadev_tm_section {
   position: absolute;
   inset: 0;
   overflow: hidden;
@@ -51,7 +51,7 @@
   }
 }
 
-.tokyo_tm_all_wrap .leftpart {
+.cardiadev_tm_all_wrap .leftpart {
   .logo { @include logo-type-rules; }
 
   .menu ul li.active a {
@@ -59,7 +59,7 @@
   }
 }
 
-.tokyo_tm_topbar {
+.cardiadev_tm_topbar {
   .logo { @include logo-type-rules; }
 
   .hamburger {
@@ -75,13 +75,13 @@
 }
 
 // --- Mobile menu ---
-.tokyo_tm_mobile_menu.opened {
+.cardiadev_tm_mobile_menu.opened {
   right: 0;
 }
 
 // Show topbar on smaller viewports
 @include respond-to("xl") {
-  .tokyo_tm_topbar {
+  .cardiadev_tm_topbar {
     display: block !important;
   }
 }

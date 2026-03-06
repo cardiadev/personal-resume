@@ -607,7 +607,7 @@ h6 {
   padding-bottom: 0px;
 }
 
-.tokyo_tm_all_wrap {
+.cardiadev_tm_all_wrap {
   position: relative;
   float: left;
   clear: both;
@@ -615,19 +615,19 @@ h6 {
   width: 100%;
 }
 
-.tokyo_tm_all_wrap,
-    .tokyo_tm_all_wrap * {
+.cardiadev_tm_all_wrap,
+    .cardiadev_tm_all_wrap * {
   box-sizing: border-box;
 }
 
-.tokyo_tm_button {
+.cardiadev_tm_button {
   float: left;
   clear: both;
   height: auto;
   width: 100%;
 }
 
-.tokyo_tm_button a {
+.cardiadev_tm_button a {
   display: inline-block;
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -642,7 +642,7 @@ h6 {
   transition-duration: 300ms;
 }
 
-.tokyo_progress {
+.cardiadev_progress {
   float: left;
   clear: both;
   height: auto;
@@ -695,7 +695,7 @@ h6 {
   width: 100%;
 }
 
-.tokyo_tm_read_more {
+.cardiadev_tm_read_more {
   position: relative;
   float: left;
   clear: both;
@@ -704,7 +704,7 @@ h6 {
   overflow: hidden;
 }
 
-.tokyo_tm_read_more a {
+.cardiadev_tm_read_more a {
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -717,15 +717,15 @@ h6 {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.tokyo_tm_services .list ul li .tokyo_tm_read_more {
+.cardiadev_tm_services .list ul li .cardiadev_tm_read_more {
   margin-top: 7px;
 }
 
-.tokyo_tm_services .\!list ul li .tokyo_tm_read_more {
+.cardiadev_tm_services .\!list ul li .cardiadev_tm_read_more {
   margin-top: 7px;
 }
 
-.tokyo_tm_full_link {
+.cardiadev_tm_full_link {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -734,20 +734,20 @@ h6 {
   z-index: 4;
 }
 
-.tokyo_tm_modalbox .service_popup_informations .image {
+.cardiadev_tm_modalbox .service_popup_informations .image {
   position: relative;
   float: left;
   margin-bottom: 37px;
   width: 100%;
 }
 
-.tokyo_tm_modalbox .service_popup_informations .image img {
+.cardiadev_tm_modalbox .service_popup_informations .image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
 
-.tokyo_tm_modalbox .service_popup_informations .image .main {
+.cardiadev_tm_modalbox .service_popup_informations .image .main {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -758,23 +758,23 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.tokyo_tm_modalbox .service_popup_informations .main_title {
+.cardiadev_tm_modalbox .service_popup_informations .main_title {
   float: left;
   margin-bottom: 23px;
   width: 100%;
 }
 
-.tokyo_tm_modalbox .service_popup_informations .main_title h3 {
+.cardiadev_tm_modalbox .service_popup_informations .main_title h3 {
   font-size: 23px;
   font-weight: 600;
 }
 
-.tokyo_tm_pricing .price span {
+.cardiadev_tm_pricing .price span {
   position: relative;
   display: inline-block;
 }
 
-.tokyo_tm_modalbox {
+.cardiadev_tm_modalbox {
   visibility: hidden;
   position: fixed;
   top: 0px;
@@ -789,16 +789,16 @@ h6 {
   transition-duration: 300ms;
 }
 
-.tokyo_tm_modalbox.opened {
+.cardiadev_tm_modalbox.opened {
   visibility: visible;
   opacity: 1;
 }
 
-.tokyo_tm_modalbox .container {
+.cardiadev_tm_modalbox .container {
   height: 100vh;
 }
 
-.tokyo_tm_modalbox .box_inner {
+.cardiadev_tm_modalbox .box_inner {
   visibility: hidden;
   position: absolute;
   top: 70px;
@@ -818,13 +818,13 @@ h6 {
   transition-duration: 300ms;
 }
 
-.tokyo_tm_modalbox.opened .box_inner {
+.cardiadev_tm_modalbox.opened .box_inner {
   visibility: visible;
   margin-top: 0px;
   opacity: 1;
 }
 
-.tokyo_tm_modalbox .close {
+.cardiadev_tm_modalbox .close {
   position: fixed;
   left: 100%;
   top: 0px;
@@ -832,7 +832,7 @@ h6 {
   margin-left: 30px;
 }
 
-.tokyo_tm_modalbox .close a {
+.cardiadev_tm_modalbox .close a {
   position: relative;
   display: block;
   height: 40px;
@@ -849,11 +849,11 @@ h6 {
   transition-duration: 300ms;
 }
 
-.tokyo_tm_modalbox .close a:hover {
+.cardiadev_tm_modalbox .close a:hover {
   border-radius: 9999px;
 }
 
-.tokyo_tm_modalbox .close a i {
+.cardiadev_tm_modalbox .close a i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -862,7 +862,7 @@ h6 {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.tokyo_tm_modalbox .description_wrap {
+.cardiadev_tm_modalbox .description_wrap {
   position: relative;
   float: left;
   height: 100%;
@@ -872,7 +872,7 @@ h6 {
   padding: 50px;
 }
 
-.tokyo_tm_modalbox .description_wrap:after {
+.cardiadev_tm_modalbox .description_wrap:after {
   position: fixed;
   right: 0px;
   left: 0px;
@@ -885,7 +885,7 @@ h6 {
   content: var(--tw-content);
 }
 
-.tokyo_tm_modalbox .description_wrap:before {
+.cardiadev_tm_modalbox .description_wrap:before {
   position: fixed;
   right: 0px;
   left: 0px;
@@ -898,25 +898,25 @@ h6 {
   content: var(--tw-content);
 }
 
-.tokyo_tm_pricing .price .currency {
+.cardiadev_tm_pricing .price .currency {
   bottom: 10px;
   right: -10px;
   font-size: 15px;
 }
 
-.tokyo_tm_pricing .item li.active {
+.cardiadev_tm_pricing .item li.active {
   opacity: 1;
 }
 
-.tokyo_tm_pricing .\!item li.active {
+.cardiadev_tm_pricing .\!item li.active {
   opacity: 1;
 }
 
-.tokyo_tm_pricing .tokyo_tm_button {
+.cardiadev_tm_pricing .cardiadev_tm_button {
   margin-top: 30px;
 }
 
-.tokyo_tm_portfolio_titles {
+.cardiadev_tm_portfolio_titles {
   visibility: hidden;
   position: fixed;
   z-index: 15;
@@ -935,7 +935,7 @@ h6 {
   opacity: 0;
 }
 
-.tokyo_tm_portfolio_titles .work__cat {
+.cardiadev_tm_portfolio_titles .work__cat {
   position: absolute;
   top: 100%;
   left: 0px;
@@ -961,19 +961,19 @@ h6 {
   position: relative;
 }
 
-.tokyo_tm_modalbox .popup_details .top_image {
+.cardiadev_tm_modalbox .popup_details .top_image {
   position: relative;
   margin-bottom: 37px;
   overflow: hidden;
 }
 
-.tokyo_tm_modalbox .popup_details .top_image img {
+.cardiadev_tm_modalbox .popup_details .top_image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
 
-.tokyo_tm_modalbox .popup_details .top_image .main {
+.cardiadev_tm_modalbox .popup_details .top_image .main {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -984,19 +984,19 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.tokyo_tm_modalbox .portfolio_main_title {
+.cardiadev_tm_modalbox .portfolio_main_title {
   float: left;
   margin-bottom: 28px;
   width: 100%;
 }
 
-.tokyo_tm_modalbox .portfolio_main_title h3 {
+.cardiadev_tm_modalbox .portfolio_main_title h3 {
   margin-bottom: 5px;
   font-size: 23px;
   font-weight: 700;
 }
 
-.tokyo_tm_portfolio .popup_details {
+.cardiadev_tm_portfolio .popup_details {
   visibility: hidden;
   position: absolute;
   z-index: -111;
@@ -1004,18 +1004,18 @@ h6 {
   opacity: 0;
 }
 
-.tokyo_tm_modalbox .popup_details {
+.cardiadev_tm_modalbox .popup_details {
   float: left;
   clear: both;
   height: auto;
   width: 100%;
 }
 
-.tokyo_tm_modalbox .additional_images ul li:nth-child(3n-2) {
+.cardiadev_tm_modalbox .additional_images ul li:nth-child(3n-2) {
   width: 100%;
 }
 
-.tokyo_tm_news ul li .extra:before {
+.cardiadev_tm_news ul li .extra:before {
   position: absolute;
   bottom: -7px;
   height: 1px;
@@ -1025,7 +1025,7 @@ h6 {
   content: var(--tw-content);
 }
 
-.tokyo_tm_modalbox .details .extra {
+.cardiadev_tm_modalbox .details .extra {
   position: relative;
   margin-bottom: 30px;
   display: flex;
@@ -1033,7 +1033,7 @@ h6 {
   justify-content: space-between;
 }
 
-.tokyo_tm_modalbox .details .extra:before {
+.cardiadev_tm_modalbox .details .extra:before {
   position: absolute;
   bottom: -10px;
   height: 1px;
@@ -1043,7 +1043,7 @@ h6 {
   content: var(--tw-content);
 }
 
-.tokyo_tm_news ul li .details .date span:before {
+.cardiadev_tm_news ul li .details .date span:before {
   position: relative;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1054,24 +1054,24 @@ h6 {
   content: var(--tw-content);
 }
 
-.tokyo_tm_modalbox .details {
+.cardiadev_tm_modalbox .details {
   float: left;
   margin-bottom: 20px;
   width: 100%;
   padding: 0px;
 }
 
-.tokyo_tm_modalbox .description_wrap .image {
+.cardiadev_tm_modalbox .description_wrap .image {
   position: relative;
   z-index: -1;
   margin-bottom: 40px;
 }
 
-.tokyo_tm_modalbox .description_wrap .image img {
+.cardiadev_tm_modalbox .description_wrap .image img {
   min-width: 100%;
 }
 
-.tokyo_tm_modalbox .description_wrap .image .main {
+.cardiadev_tm_modalbox .description_wrap .image .main {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1082,13 +1082,13 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.tokyo_tm_modalbox .details .title {
+.cardiadev_tm_modalbox .details .title {
   margin-bottom: 9px;
   font-size: 23px;
   font-weight: 600;
 }
 
-.tokyo_tm_modalbox .date {
+.cardiadev_tm_modalbox .date {
   font-family: Montserrat, sans-serif;
   font-size: 12px;
   text-transform: uppercase;
@@ -1096,7 +1096,7 @@ h6 {
   color: rgb(118 118 118 / var(--tw-text-opacity));
 }
 
-.tokyo_tm_modalbox .date a {
+.cardiadev_tm_modalbox .date a {
   --tw-text-opacity: 1;
   color: rgb(118 118 118 / var(--tw-text-opacity));
   transition-property: all;
@@ -1104,17 +1104,17 @@ h6 {
   transition-duration: 300ms;
 }
 
-.tokyo_tm_modalbox .date a:hover {
+.cardiadev_tm_modalbox .date a:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.tokyo_tm_modalbox .date span {
+.cardiadev_tm_modalbox .date span {
   position: relative;
   margin-bottom: 11px;
 }
 
-.tokyo_tm_modalbox .date span:before {
+.cardiadev_tm_modalbox .date span:before {
   position: absolute;
   top: 50%;
   right: 100%;
@@ -1131,7 +1131,7 @@ h6 {
   content: var(--tw-content);
 }
 
-.tokyo_tm_news .main_content {
+.cardiadev_tm_news .main_content {
   visibility: hidden;
   position: absolute;
   z-index: -111;
@@ -1152,38 +1152,7 @@ h6 {
     max-width: 968px;
   }
 
-  .tokyo_tm_all_wrap .leftpart {
-    width: 350px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 70px;
-    padding-right: 50px;
-  }
-
-  .tokyo_tm_all_wrap .rightpart {
-    padding-left: 350px;
-  }
-
-  .tokyo_tm_home .avatar {
-    min-height: 250px;
-    min-width: 250px;
-  }
-
-  .tokyo_tm_home .details .name {
-    margin-bottom: 10px;
-    font-size: 48px;
-  }
-
-  .tokyo_tm_home .details .\!name {
-    margin-bottom: 10px;
-    font-size: 48px;
-  }
-
-  .tokyo_tm_home .details .job {
-    margin-bottom: 22px;
-  }
-
-  .tokyo_tm_modalbox .box_inner {
+  .cardiadev_tm_modalbox .box_inner {
     width: 850px;
   }
 }
@@ -1191,79 +1160,79 @@ h6 {
 /******** Larger Screens *********/
 
 @media (max-width: 1200px) {
-  .tokyo_tm_section {
+  .cardiadev_tm_section {
     padding-left: 0px;
   }
 
-  .tokyo_tm_all_wrap .leftpart {
+  .cardiadev_tm_all_wrap .leftpart {
     display: none;
   }
 
-  .tokyo_tm_all_wrap .rightpart {
+  .cardiadev_tm_all_wrap .rightpart {
     padding-left: 0px;
   }
 
-  .tokyo_tm_all_wrap .rightpart_in {
+  .cardiadev_tm_all_wrap .rightpart_in {
     border-left-width: 0px;
   }
 
-  .tokyo_tm_about {
+  .cardiadev_tm_about {
     padding-top: 130px;
   }
 
-  .tokyo_tm_portfolio {
+  .cardiadev_tm_portfolio {
     padding-top: 130px;
   }
 
-  .tokyo_tm_contact {
+  .cardiadev_tm_contact {
     padding-top: 130px;
   }
 
-  .tokyo_tm_news {
+  .cardiadev_tm_news {
     padding-top: 130px;
   }
 
-  .tokyo_tm_services {
+  .cardiadev_tm_services {
     padding-top: 130px;
   }
 
-  .tokyo_tm_modalbox .description_wrap {
+  .cardiadev_tm_modalbox .description_wrap {
     padding: 40px;
   }
 
-  .tokyo_tm_modalbox .box_inner {
+  .cardiadev_tm_modalbox .box_inner {
     width: 500px;
   }
 
-  .tokyo_tm_modalbox .main_details {
+  .cardiadev_tm_modalbox .main_details {
     flex-direction: column;
   }
 
-  .tokyo_tm_modalbox .main_details .textbox {
+  .cardiadev_tm_modalbox .main_details .textbox {
     margin-bottom: 30px;
     width: 100%;
     padding-right: 0px;
   }
 
-  .tokyo_tm_modalbox .main_details .detailbox {
+  .cardiadev_tm_modalbox .main_details .detailbox {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_modalbox .additional_images ul {
+  .cardiadev_tm_modalbox .additional_images ul {
     margin: 0px;
   }
 
-  .tokyo_tm_modalbox .additional_images ul li {
+  .cardiadev_tm_modalbox .additional_images ul li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_modalbox .description_wrap:after {
+  .cardiadev_tm_modalbox .description_wrap:after {
     height: 40px;
   }
 
-  .tokyo_tm_modalbox .description_wrap:before {
+  .cardiadev_tm_modalbox .description_wrap:before {
     height: 40px;
   }
 }
@@ -1275,25 +1244,25 @@ h6 {
     display: none;
   }
 
-  .tokyo_tm_home .home_content {
+  .cardiadev_tm_home .home_content {
     flex-direction: column;
     text-align: center;
   }
 
-  .tokyo_tm_home .avatar {
+  .cardiadev_tm_home .avatar {
     margin-bottom: 30px;
   }
 
-  .tokyo_tm_home .details {
+  .cardiadev_tm_home .details {
     margin-left: 0px;
   }
 
-  .tokyo_tm_title .title_flex {
+  .cardiadev_tm_title .title_flex {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .tokyo_tm_title .portfolio_filter {
+  .cardiadev_tm_title .portfolio_filter {
     padding-top: 48px;
   }
 
@@ -1304,27 +1273,27 @@ h6 {
     padding-bottom: 0px;
   }
 
-  .tokyo_tm_services .list ul li {
+  .cardiadev_tm_services .list ul li {
     width: 50%;
   }
 
-  .tokyo_tm_services .\!list ul li {
+  .cardiadev_tm_services .\!list ul li {
     width: 50%;
   }
 
-  .tokyo_tm_partners ul li {
+  .cardiadev_tm_partners ul li {
     width: 33.333333%;
   }
 
-  .tokyo_tm_modalbox .details .title {
+  .cardiadev_tm_modalbox .details .title {
     font-size: 20px;
   }
 
-  .tokyo_tm_modalbox .portfolio_main_title h3 {
+  .cardiadev_tm_modalbox .portfolio_main_title h3 {
     font-size: 20px;
   }
 
-  .tokyo_tm_modalbox .service_popup_informations .main_title h3 {
+  .cardiadev_tm_modalbox .service_popup_informations .main_title h3 {
     font-size: 20px;
   }
 }
@@ -1332,197 +1301,197 @@ h6 {
 /******** Small Screens *********/
 
 @media (max-width: 768px) {
-  .tokyo_tm_home .details .name {
+  .cardiadev_tm_home .details .name {
     font-size: 30px;
   }
 
-  .tokyo_tm_home .details .\!name {
+  .cardiadev_tm_home .details .\!name {
     font-size: 30px;
   }
 
-  .tokyo_tm_home .avatar {
+  .cardiadev_tm_home .avatar {
     min-height: 200px;
     min-width: 200px;
   }
 
-  .tokyo_tm_portfolio .portfolio_list {
+  .cardiadev_tm_portfolio .portfolio_list {
     margin: 0px;
   }
 
-  .tokyo_tm_portfolio .portfolio_list li {
+  .cardiadev_tm_portfolio .portfolio_list li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_news ul {
+  .cardiadev_tm_news ul {
     margin: 0px;
   }
 
-  .tokyo_tm_news ul li {
+  .cardiadev_tm_news ul li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_news ul li .details {
+  .cardiadev_tm_news ul li .details {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .tokyo_tm_modalbox .main_content .icon {
+  .cardiadev_tm_modalbox .main_content .icon {
     position: relative;
     margin-bottom: 25px;
   }
 
-  .tokyo_tm_modalbox .main_content .quotebox {
+  .cardiadev_tm_modalbox .main_content .quotebox {
     padding-left: 0px;
   }
 
-  .tokyo_tm_modalbox .close a {
+  .cardiadev_tm_modalbox .close a {
     height: 30px;
     width: 30px;
     font-size: 14px;
   }
 
-  .tokyo_tm_modalbox .close {
+  .cardiadev_tm_modalbox .close {
     left: auto;
     right: 0px;
     top: -40px;
   }
 
-  .tokyo_tm_modalbox .box_inner {
+  .cardiadev_tm_modalbox .box_inner {
     width: 300px;
   }
 
-  .tokyo_tm_modalbox .description_wrap {
+  .cardiadev_tm_modalbox .description_wrap {
     padding: 20px;
   }
 
-  .tokyo_tm_short_info {
+  .cardiadev_tm_short_info {
     flex-direction: column;
   }
 
-  .tokyo_tm_short_info .left {
+  .cardiadev_tm_short_info .left {
     width: 100%;
     padding-right: 0px;
   }
 
-  .tokyo_tm_short_info .right {
+  .cardiadev_tm_short_info .right {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_progressbox .in {
+  .cardiadev_tm_progressbox .in {
     flex-direction: column;
   }
 
-  .tokyo_tm_progressbox .in .left {
+  .cardiadev_tm_progressbox .in .left {
     margin-bottom: 60px;
     width: 100%;
     padding-right: 0px;
   }
 
-  .tokyo_tm_progressbox .in .right {
+  .cardiadev_tm_progressbox .in .right {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_skillbox .in {
+  .cardiadev_tm_skillbox .in {
     flex-direction: column;
   }
 
-  .tokyo_tm_skillbox .in .left {
+  .cardiadev_tm_skillbox .in .left {
     margin-bottom: 60px;
     width: 100%;
     padding-right: 0px;
   }
 
-  .tokyo_tm_skillbox .in .right {
+  .cardiadev_tm_skillbox .in .right {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_resumebox .in {
+  .cardiadev_tm_resumebox .in {
     flex-direction: column;
   }
 
-  .tokyo_tm_resumebox .in .left {
+  .cardiadev_tm_resumebox .in .left {
     margin-bottom: 60px;
     width: 100%;
     padding-right: 0px;
   }
 
-  .tokyo_tm_resumebox .in .right {
+  .cardiadev_tm_resumebox .in .right {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_services .list ul {
+  .cardiadev_tm_services .list ul {
     margin: 0px;
   }
 
-  .tokyo_tm_services .\!list ul {
+  .cardiadev_tm_services .\!list ul {
     margin: 0px;
   }
 
-  .tokyo_tm_services .list ul li {
+  .cardiadev_tm_services .list ul li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_services .\!list ul li {
+  .cardiadev_tm_services .\!list ul li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_partners ul li {
+  .cardiadev_tm_partners ul li {
     width: 50%;
   }
 
-  .tokyo_tm_facts .list ul {
+  .cardiadev_tm_facts .list ul {
     margin: 0px;
   }
 
-  .tokyo_tm_facts .\!list ul {
+  .cardiadev_tm_facts .\!list ul {
     margin: 0px;
   }
 
-  .tokyo_tm_facts .list ul li {
+  .cardiadev_tm_facts .list ul li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_facts .\!list ul li {
+  .cardiadev_tm_facts .\!list ul li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_pricing .list > ul {
+  .cardiadev_tm_pricing .list > ul {
     margin: 0px;
   }
 
-  .tokyo_tm_pricing .\!list > ul {
+  .cardiadev_tm_pricing .\!list > ul {
     margin: 0px;
   }
 
-  .tokyo_tm_pricing .list > ul > li {
+  .cardiadev_tm_pricing .list > ul > li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_pricing .\!list > ul > li {
+  .cardiadev_tm_pricing .\!list > ul > li {
     width: 100%;
     padding-left: 0px;
   }
 
-  .tokyo_tm_modalbox .description_wrap:after {
+  .cardiadev_tm_modalbox .description_wrap:after {
     height: 20px;
   }
 
-  .tokyo_tm_modalbox .description_wrap:before {
+  .cardiadev_tm_modalbox .description_wrap:before {
     height: 20px;
   }
 
-  .tokyo_tm_modalbox .portfolio_main_title {
+  .cardiadev_tm_modalbox .portfolio_main_title {
     margin-bottom: 20px;
   }
 }
@@ -1545,51 +1514,51 @@ body.dark h1,body.dark h2,body.dark h3,body.dark h4,body.dark h5,body.dark h6 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart {
+body.dark .cardiadev_tm_all_wrap .leftpart {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart .menu ul li a {
+body.dark .cardiadev_tm_all_wrap .leftpart .menu ul li a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart .menu ul li a:hover {
+body.dark .cardiadev_tm_all_wrap .leftpart .menu ul li a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart .menu ul li.active a {
+body.dark .cardiadev_tm_all_wrap .leftpart .menu ul li.active a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart .copyright p {
+body.dark .cardiadev_tm_all_wrap .leftpart .copyright p {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart .copyright a {
+body.dark .cardiadev_tm_all_wrap .leftpart .copyright a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart .copyright a:hover {
+body.dark .cardiadev_tm_all_wrap .leftpart .copyright a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .rightpart {
+body.dark .cardiadev_tm_all_wrap .rightpart {
   --tw-bg-opacity: 1;
   background-color: rgb(52 53 58 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_all_wrap .rightpart_in {
+body.dark .cardiadev_tm_all_wrap .rightpart_in {
   border-left-width: 0px;
 }
 
-body.dark .tokyo_tm_home .social ul li a {
+body.dark .cardiadev_tm_home .social ul li a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1613,7 +1582,7 @@ body.dark .cursor-outer.cursor-hover {
   opacity: 0;
 }
 
-body.dark .tokyo_tm_topbar {
+body.dark .cardiadev_tm_topbar {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
@@ -1632,169 +1601,169 @@ body.dark .hamburger.is-active .hamburger-inner,
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_mobile_menu {
+body.dark .cardiadev_tm_mobile_menu {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_mobile_menu .menu_list ul li a {
+body.dark .cardiadev_tm_mobile_menu .menu_list ul li a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_button a {
+body.dark .cardiadev_tm_button a {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_about .description .right > ul > li a {
+body.dark .cardiadev_tm_about .description .right > ul > li a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_about .description .right > ul > li a:hover {
+body.dark .cardiadev_tm_about .description .right > ul > li a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_about .description .right>ul>li span {
+body.dark .cardiadev_tm_about .description .right>ul>li span {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox_about .counter ul li .name {
+body.dark .cardiadev_tm_modalbox_about .counter ul li .name {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox_about .counter ul li .\!name {
+body.dark .cardiadev_tm_modalbox_about .counter ul li .\!name {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_title span {
+body.dark .cardiadev_tm_title span {
   background-color: rgba(255,255,255,.04);
   --tw-text-opacity: 1;
   color: rgb(149 149 149 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_portfolio .portfolio_filter ul li a {
+body.dark .cardiadev_tm_portfolio .portfolio_filter ul li a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_portfolio .portfolio_filter ul li a:hover {
+body.dark .cardiadev_tm_portfolio .portfolio_filter ul li a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_news ul li .details .title a {
+body.dark .cardiadev_tm_news ul li .details .title a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_news ul li .details .date {
+body.dark .cardiadev_tm_news ul li .details .date {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_news ul li .details .date a {
+body.dark .cardiadev_tm_news ul li .details .date a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_news ul li .details .date a:hover {
+body.dark .cardiadev_tm_news ul li .details .date a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox_news .details .title {
+body.dark .cardiadev_tm_modalbox_news .details .title {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox_news .main_content .descriptions p {
+body.dark .cardiadev_tm_modalbox_news .main_content .descriptions p {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_content .descriptions .bigger {
+body.dark .cardiadev_tm_modalbox .main_content .descriptions .bigger {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_contact .fields ul li input {
+body.dark .cardiadev_tm_contact .fields ul li input {
   border-color: rgba(255,255,255,.2);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_contact .fields .last textarea {
+body.dark .cardiadev_tm_contact .fields .last textarea {
   border-color: rgba(255,255,255,.2);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_contact .fields .\!last textarea {
+body.dark .cardiadev_tm_contact .fields .\!last textarea {
   border-color: rgba(255,255,255,.2);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_contact .fields ul li input:focus {
+body.dark .cardiadev_tm_contact .fields ul li input:focus {
   border-color: rgba(255,255,255,1);
 }
 
-body.dark .tokyo_tm_contact .fields .last textarea:focus {
-  border-color: rgba(255,255,255,1);
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-body.dark .tokyo_tm_contact .fields .\!last textarea:focus {
+body.dark .cardiadev_tm_contact .fields .last textarea:focus {
   border-color: rgba(255,255,255,1);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_news ul li .details {
+body.dark .cardiadev_tm_contact .fields .\!last textarea:focus {
+  border-color: rgba(255,255,255,1);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+body.dark .cardiadev_tm_news ul li .details {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_news ul li .extra:before {
+body.dark .cardiadev_tm_news ul li .extra:before {
   background-color: rgba(255,255,255,.1);
 }
 
-body.dark .tokyo_tm_read_more a {
+body.dark .cardiadev_tm_read_more a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_read_more a span {
+body.dark .cardiadev_tm_read_more a span {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_read_more a:before {
+body.dark .cardiadev_tm_read_more a:before {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_news ul li .list_inner {
+body.dark .cardiadev_tm_news ul li .list_inner {
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-body.dark .tokyo_tm_modalbox_about .box_inner {
+body.dark .cardiadev_tm_modalbox_about .box_inner {
   --tw-bg-opacity: 1;
   background-color: rgb(52 53 58 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_modalbox_about .about_title h3 {
+body.dark .cardiadev_tm_modalbox_about .about_title h3 {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1813,254 +1782,254 @@ body.dark .progress_inner .background .bar_in {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_modalbox_about .list_inner {
+body.dark .cardiadev_tm_modalbox_about .list_inner {
   border-color: rgba(255,255,255,.1);
 }
 
-body.dark .tokyo_tm_modalbox .box_inner {
+body.dark .cardiadev_tm_modalbox .box_inner {
   --tw-bg-opacity: 1;
   background-color: rgb(52 53 58 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_details .detailbox .first {
+body.dark .cardiadev_tm_modalbox .main_details .detailbox .first {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_details .detailbox .\!first {
+body.dark .cardiadev_tm_modalbox .main_details .detailbox .\!first {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_details .detailbox span a {
+body.dark .cardiadev_tm_modalbox .main_details .detailbox span a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_details .detailbox span a:hover {
+body.dark .cardiadev_tm_modalbox .main_details .detailbox span a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_details .detailbox .share li a {
+body.dark .cardiadev_tm_modalbox .main_details .detailbox .share li a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_details .detailbox .share li a:hover {
+body.dark .cardiadev_tm_modalbox .main_details .detailbox .share li a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .main_content .icon i {
+body.dark .cardiadev_tm_modalbox .main_content .icon i {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .date {
+body.dark .cardiadev_tm_modalbox .date {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .date a {
+body.dark .cardiadev_tm_modalbox .date a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .date a:hover {
+body.dark .cardiadev_tm_modalbox .date a:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .details .extra:before {
+body.dark .cardiadev_tm_modalbox .details .extra:before {
   background-color: rgba(255,255,255,.1);
 }
 
-body.dark .tokyo_tm_about .about_title {
+body.dark .cardiadev_tm_about .about_title {
   border-bottom-color: rgba(255,255,255,.1);
 }
 
-body.dark .tokyo_tm_about .about_text {
+body.dark .cardiadev_tm_about .about_text {
   border-bottom-color: rgba(255,255,255,.1);
 }
 
-body.dark .tokyo_tm_short_info {
+body.dark .cardiadev_tm_short_info {
   border-bottom-color: rgba(255,255,255,.1);
 }
 
-body.dark .tokyo_tm_info ul li span:first-child {
+body.dark .cardiadev_tm_info ul li span:first-child {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_info ul li a {
+body.dark .cardiadev_tm_info ul li a {
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_progressbox {
+body.dark .cardiadev_tm_progressbox {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_skill_list ul li .svg {
+body.dark .cardiadev_tm_skill_list ul li .svg {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_resumebox {
+body.dark .cardiadev_tm_resumebox {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_resume_list ul li .time span {
+body.dark .cardiadev_tm_resume_list ul li .time span {
   background-color: rgba(255,255,255,.05);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_resume_list ul:before {
+body.dark .cardiadev_tm_resume_list ul:before {
   background-color: rgba(255,255,255,.07);
 }
 
-body.dark .tokyo_tm_resume_list ul li:before {
+body.dark .cardiadev_tm_resume_list ul li:before {
   border-color: rgba(255,255,255,.2);
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_testimonials .list ul li .text {
+body.dark .cardiadev_tm_testimonials .list ul li .text {
   --tw-border-opacity: 1;
   border-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_testimonials .\!list ul li .text {
+body.dark .cardiadev_tm_testimonials .\!list ul li .text {
   --tw-border-opacity: 1;
   border-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_testimonials .list ul li .text:before {
+body.dark .cardiadev_tm_testimonials .list ul li .text:before {
   --tw-border-opacity: 1;
   border-top-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_testimonials .\!list ul li .text:before {
+body.dark .cardiadev_tm_testimonials .\!list ul li .text:before {
   --tw-border-opacity: 1;
   border-top-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_testimonials .list ul li .text:after {
+body.dark .cardiadev_tm_testimonials .list ul li .text:after {
   --tw-border-opacity: 1;
   border-top-color: rgb(52 53 58 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_testimonials .\!list ul li .text:after {
+body.dark .cardiadev_tm_testimonials .\!list ul li .text:after {
   --tw-border-opacity: 1;
   border-top-color: rgb(52 53 58 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_services .list ul li .list_inner {
+body.dark .cardiadev_tm_services .list ul li .list_inner {
   border-width: 0px;
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_services .\!list ul li .list_inner {
+body.dark .cardiadev_tm_services .\!list ul li .list_inner {
   border-width: 0px;
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_services .list ul li .number {
+body.dark .cardiadev_tm_services .list ul li .number {
   background-color: rgba(255,255,255,.03);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_services .\!list ul li .number {
+body.dark .cardiadev_tm_services .\!list ul li .number {
   background-color: rgba(255,255,255,.03);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_services .list ul li .list_inner:hover .number {
+body.dark .cardiadev_tm_services .list ul li .list_inner:hover .number {
   background-color: rgba(255,255,255,.08);
 }
 
-body.dark .tokyo_tm_services .\!list ul li .list_inner:hover .number {
+body.dark .cardiadev_tm_services .\!list ul li .list_inner:hover .number {
   background-color: rgba(255,255,255,.08);
 }
 
-body.dark .tokyo_tm_services .list ul li .title {
+body.dark .cardiadev_tm_services .list ul li .title {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_services .\!list ul li .title {
+body.dark .cardiadev_tm_services .\!list ul li .title {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .description_wrap:after {
+body.dark .cardiadev_tm_modalbox .description_wrap:after {
   --tw-bg-opacity: 1;
   background-color: rgb(52 53 58 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_modalbox .description_wrap:before {
+body.dark .cardiadev_tm_modalbox .description_wrap:before {
   --tw-bg-opacity: 1;
   background-color: rgb(52 53 58 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_partners {
+body.dark .cardiadev_tm_partners {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_partners .partners_inner {
+body.dark .cardiadev_tm_partners .partners_inner {
   --tw-border-opacity: 1;
   border-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_partners ul li {
+body.dark .cardiadev_tm_partners ul li {
   --tw-border-opacity: 1;
   border-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_facts .list ul li .list_inner {
+body.dark .cardiadev_tm_facts .list ul li .list_inner {
   --tw-border-opacity: 1;
   border-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_facts .\!list ul li .list_inner {
+body.dark .cardiadev_tm_facts .\!list ul li .list_inner {
   --tw-border-opacity: 1;
   border-color: rgb(86 88 92 / var(--tw-border-opacity));
 }
 
-body.dark .tokyo_tm_pricing {
+body.dark .cardiadev_tm_pricing {
   --tw-bg-opacity: 1;
   background-color: rgb(73 75 80 / var(--tw-bg-opacity));
 }
 
-body.dark .tokyo_tm_pricing .list > ul > li .list_inner {
+body.dark .cardiadev_tm_pricing .list > ul > li .list_inner {
   border-color: rgba(255,255,255,.2);
 }
 
-body.dark .tokyo_tm_pricing .\!list > ul > li .list_inner {
+body.dark .cardiadev_tm_pricing .\!list > ul > li .list_inner {
   border-color: rgba(255,255,255,.2);
 }
 
-body.dark .tokyo_tm_pricing .popular {
+body.dark .cardiadev_tm_pricing .popular {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-body.dark .tokyo_tm_pricing .plan h3 {
+body.dark .cardiadev_tm_pricing .plan h3 {
   border-color: rgba(255,255,255,.1);;
 }
 
-body.dark .tokyo_tm_modalbox .details {
+body.dark .cardiadev_tm_modalbox .details {
   background-color: transparent;
 }
 

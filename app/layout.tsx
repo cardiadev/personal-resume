@@ -53,8 +53,6 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="/assets/img/logo/dark.png" />
-        <link rel="stylesheet" href="/assets/css/plugins.css" />
-        <link rel="stylesheet" href="/assets/css/main.css" />
       </head>
       <body
         className={`${mulish.variable} ${poppins.variable} ${openSans.variable} ${montserrat.variable}`}

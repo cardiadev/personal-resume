@@ -1,7 +1,7 @@
 "use client";
 
 import { useContext, type ReactNode } from "react";
-import { TokyoContext } from "../Context";
+import { CardiaDevContext } from "../Context";
 
 interface SectionContainerProps {
   name: string;
@@ -9,11 +9,11 @@ interface SectionContainerProps {
 }
 
 const SectionContainer = ({ name, children }: SectionContainerProps) => {
-  const { nav, animation } = useContext(TokyoContext);
+  const { nav, animation } = useContext(CardiaDevContext);
   return (
     <div
       id={name}
-      className={`tokyo_tm_section ${
+      className={`cardiadev_tm_section ${
         name === nav ? `animated active ${animation}` : ""
       }`}
     >

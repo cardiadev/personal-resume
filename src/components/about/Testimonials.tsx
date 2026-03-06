@@ -29,9 +29,9 @@ const testimonialData = [
 
 const Testimonials = () => {
   return (
-    <div className="tokyo_tm_testimonials w-full h-auto clear-both float-left py-[100px] px-0">
+    <div className="cardiadev_tm_testimonials w-full h-auto clear-both float-left py-[100px] px-0">
       <div className="container">
-        <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
+        <div className="cardiadev_section_title w-full h-auto clear-both float-left mb-[40px]">
           <h3 className="text-[20px] font-bold">Testimonials</h3>
         </div>
         <div className="list w-full h-auto clear-both float-left overflow-hidden">
